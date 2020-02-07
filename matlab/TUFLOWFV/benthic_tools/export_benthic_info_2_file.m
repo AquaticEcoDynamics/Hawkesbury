@@ -24,9 +24,9 @@ outdir_plots = 'Images/';
 [XX,YY,nodeID,faces,Cell_X,Cell_Y,Cell_ID,Cell_Z,Mat] = tfv_get_node_from_2dm(bathy_file);
 
 
-[~,headers] = xlsread(benthic_info,'A1:Z1');
+[~,headers] = xlsread(benthic_info,'H1:Z1');
 
-[data,~]= xlsread(benthic_info,'A2:Z10000');
+[data,~]= xlsread(benthic_info,'H2:Z10000');
 
 fid = fopen(outfile,'wt');
 

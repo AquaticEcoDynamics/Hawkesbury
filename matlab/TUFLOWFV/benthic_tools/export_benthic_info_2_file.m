@@ -4,7 +4,7 @@ function export_benthic_info_2_file
 
 
 % The 2dm file with pre-configured material zones
-bathy_file = 'example_bathy.2dm';
+bathy_file = 'HawkesburyNepean_Detailed_021.2dm';
 
 % Spreadsheet conatining the variables, material zone ID and the values
 % that will be used in the file

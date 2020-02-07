@@ -1,0 +1,10 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  File "argoss_coords.csv"
+  Type ASCII Delimiter "," Charset "WindowsLatin1"
+  Fields 2
+    _COL1 Float ;
+    _COL2 Float ;

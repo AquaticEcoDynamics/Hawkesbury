@@ -62,7 +62,7 @@
    link_solar_shade = .false.
    link_rain_loss = .false.
    !-- Benthic variable initialisation
-   init_values_file = ''
+   init_values_file = './AED_Initial.csv'
   !route_table_file = '../External/AED2/Routing_Tbl.csv'
 /
 

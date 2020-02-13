@@ -167,7 +167,7 @@ end output
 
 output == netcdf
   suffix == WQ
-  output parameters == WQ_all
+  output parameters == WQ_all,WQ_DIAG_ALL
   output interval == 3600
 end output
 

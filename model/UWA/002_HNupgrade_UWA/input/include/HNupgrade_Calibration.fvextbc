@@ -1,0 +1,84 @@
+bc == QC,289767.802,6213952.236,../../bc/Inflows_Calibration_2011_v2/Extraction/AppinIrrigators_313.csv
+	sub-type == 2
+	bc header == Date,Q_m3s
+	bc scale == -1.0
+end bc
+
+
+bc == QC,291480.561,6224906.719,../../bc/Inflows_Calibration_2011_v2/Extraction/BerginsPoolIrrigators.csv
+	sub-type == 2
+	bc header == Date,Q_m3s
+	bc scale == -1.0
+end bc
+
+
+bc == QC,282978.901,6234386.453,../../bc/Inflows_Calibration_2011_v2/Extraction/BrownlowHillPoolIrrigators.csv
+	sub-type == 2
+	bc header == Date,Q_m3s
+	bc scale == -1.0
+end bc
+
+
+bc == QC,286906.149,6232708.105,../../bc/Inflows_Calibration_2011_v2/Extraction/CobbityPoolIrrigators.csv
+	sub-type == 2
+	bc header == Date,Q_m3s
+	bc scale == -1.0
+end bc
+
+
+bc == QC,287271.500,6214680.230,../../bc/Inflows_Calibration_2011_v2/Extraction/DouglasParkWeirPoolIrrigators.csv
+	sub-type == 2
+	bc header == Date,Q_m3s
+	bc scale == -1.0
+end bc
+
+
+bc == QC,292377.582,6222617.970,../../bc/Inflows_Calibration_2011_v2/Extraction/MenangleWeirPoolIrrigators.csv
+	sub-type == 2
+	bc header == Date,Q_m3s
+	bc scale == -1.0
+end bc
+
+
+bc == QC,298452.857,6274921.403,../../bc/Inflows_Calibration_2011_v2/Extraction/RichmondRdToEasternCk_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s
+	bc scale == -1.0
+end bc
+
+
+bc == QC,285579.169,6230670.016,../../bc/Inflows_Calibration_2011_v2/Extraction/SharpesPoolIrrigators.csv
+	sub-type == 2
+	bc header == Date,Q_m3s
+	bc scale == -1.0
+end bc
+
+
+bc == QC,280943.073,6239462.580,../../bc/Inflows_Calibration_2011_v2/Extraction/TheresaPoolIrrigators.csv
+	sub-type == 2
+	bc header == Date,Q_m3s
+	bc scale == -1.0
+end bc
+
+
+bc == QC,289725.011,6226838.988,../../bc/Inflows_Calibration_2011_v2/Extraction/ThurnsWeirPoolIrrigators.csv
+	sub-type == 2
+	bc header == Date,Q_m3s
+	bc scale == -1.0
+end bc
+
+
+bc == QC,298767.959,6275303.871,../../bc/Inflows_Calibration_2011_v2/Extraction/WU_212296TOSouthCk_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s
+	bc scale == -1.0
+end bc
+
+
+bc == QC,299595.561,6279538.971,../../bc/Inflows_Calibration_2011_v2/Extraction/WU_DsEasternCk_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s
+	bc scale == -1.0
+end bc
+
+

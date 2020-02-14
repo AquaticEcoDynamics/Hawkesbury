@@ -1,0 +1,54 @@
+!_________________________________________________________________  
+
+!BOUNDARY CONDITIONS
+!_________________________________________________________________
+
+! Meteorological
+grid definition file == ..\..\bc\Meteorological\2006\cart_coords.nc
+	grid definition variables == East, North
+end grid
+
+bc == AIR_TEMP_GRID, 1, ..\..\bc\Meteorological\2006\2006.nc
+  bc header == TIME,T2
+  bc update dt == 900.
+  bc time units == days
+  bc reference time == 01/01/1970 10:00
+  bc offset == -273.15 ! Convert from Kelvin to DegC
+end bc
+
+bc == W10_GRID, 1, ..\..\bc\Meteorological\2006\2006.nc
+  bc header == TIME,U10,V10
+  bc update dt == 900.
+  bc time units == days
+  bc reference time == 01/01/1970 10:00
+end bc
+
+bc == REL_HUM_GRID, 1, ..\..\bc\Meteorological\2006\rh_mslp_2006.nc
+  bc header == TIME,RH2
+  bc update dt == 900.
+  bc time units == days
+  bc reference time == 01/01/1970 10:00
+  bc scale == 100. ! Convert from fraction to percent
+end bc
+
+bc == SW_RAD_GRID, 1, ..\..\bc\Meteorological\2006\dwsw_2006.nc
+  bc header == TIME,SWDOWN
+  bc update dt == 900.
+  bc time units == days
+  bc reference time == 01/01/1970 10:00
+end bc
+
+bc == LW_RAD_GRID, 1, ..\..\bc\Meteorological\2006\2006.nc
+  bc header == TIME,LWDOWN
+  bc update dt == 900.
+  bc time units == days
+  bc reference time == 01/01/1970 10:00
+end bc
+
+bc == PRECIP_GRID, 1, ..\..\bc\Meteorological\2006\2006.nc
+  bc header == TIME,PRECIPRATE
+  bc update dt == 900.
+  bc time units == days
+  bc reference time == 01/01/1970 10:00
+  bc scale == 86.4 ! Convert from kg2to m/day
+end bc

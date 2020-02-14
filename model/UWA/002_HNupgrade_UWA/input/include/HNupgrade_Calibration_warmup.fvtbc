@@ -1,0 +1,9 @@
+!Barrenjoey
+bc == WL, 6, ..\..\bc\Tide\Barrenjoey_long_wq_warmup.csv
+  bc header == Date,WL,Sal,T_C,SS_mgL,DO,Si,NH,NOX,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,GRN,BGA,FDIA,MDIA
+end bc
+
+!Brisbane Water - Using same as Barrenjoey
+bc == WL, 24, ..\..\bc\Tide\Barrenjoey_long_wq_warmup.csv
+  bc header == Date,WL,Sal,T_C,SS_mgL,DO,Si,NH,NOX,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,GRN,BGA,FDIA,MDIA
+end bc

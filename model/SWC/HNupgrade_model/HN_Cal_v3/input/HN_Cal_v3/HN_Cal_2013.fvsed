@@ -1,0 +1,123 @@
+! Sediment Simulations
+
+!TIME COMMANDS
+!_________________________________________________________________
+update dt == 900.
+
+!SIMULATION CONFIG COMMANDS
+!_________________________________________________________________
+
+!concentration profile model == Uniform
+flocculation settling model == Constant
+hindered settling model == None
+erosion model == Mehta
+consolidation model == None
+deposition depth limits == 0.1, 0.2
+erosion depth limits == 0.1, 0.2
+
+! morfac == 10.0
+! morphological coupling == 0
+
+restart == .\log\HN_Cal_warmup_bed.rst
+
+!SEDIMENT FRACTION COMMANDS
+!_________________________________________________________________
+Nsed == 1
+
+sed frac == 1
+  ws0 == 1.0E-05 
+  taucd == 0.1
+  rhos == 2650.
+end sed frac
+
+!MATERIAL SPECS COMMANDS
+!_________________________________________________________________
+
+material == 1,2,3,4,5  ! Main Channel down to Cattai Ck
+  ks == 0.0005  !(m)
+  Nlayer == 1
+  layer == 1
+    rhodry == 800.             !(kg/m^3)
+    mass == 360.0              ! (kg/m^2)	
+    non erodable mass == 40.0  ! (kg/m^2)	
+    tauce == 0.20  ! (N/m^2)
+    erosion rate params == 0.0015, 1. ! Er(g/m^2/s), alpha (-)
+  end layer
+end material
+
+material == 6,10  ! Main Channel down to Yarramundi/Grose Inflow  - removed Color, Mac Donald eastern/south creek
+  ks == 0.0005  !(m)
+  Nlayer == 1
+  layer == 1
+    rhodry == 800.             !(kg/m^3)
+    mass == 360.0              ! (kg/m^2)	
+    non erodable mass == 40.0  ! (kg/m^2)	
+    tauce == 0.15  ! (N/m^2)
+    erosion rate params == 0.005, 1. ! Er(g/m^2/s), alpha (-)
+  end layer
+end material
+
+material == 13,14,15,16,17,18,19,20,21,24  ! Lower Estuary
+  ks == 0.0005  !(m)
+  Nlayer == 1
+  layer == 1
+    rhodry == 800.             !(kg/m^3)
+    mass == 360.0              ! (kg/m^2)	
+    non erodable mass == 40.0  ! (kg/m^2)	
+    tauce == 0.15  ! (N/m^2)
+    erosion rate params == 0.005, 1. ! Er(g/m^2/s), alpha (-)
+  end layer
+end material
+
+
+material == 7,8,9,25  ! MacDonald, Colo, Southern, Eastern
+  ks == 0.0005  !(m)
+  Nlayer == 1
+  layer == 1
+    rhodry == 800.              !(kg/m^3)
+    mass == 0.0                 ! (kg/m^2)	
+    non erodable mass == 400.0  ! (kg/m^2)	
+    tauce == 0.15 ! (N/m^2)
+    erosion rate params == 0.005, 1. ! Er(g/m^2/s), alpha (-)
+  end layer
+end material
+
+!RWH dummy values for remaining materials
+material == 11,12,22,23,26,27,28,29,30  ! U/S Reaches
+  ks == 0.0005  !(m)
+  Nlayer == 1
+  layer == 1
+    rhodry == 800.              !(kg/m^3)
+    mass == 0.0                 ! (kg/m^2)	
+    non erodable mass == 400.0  ! (kg/m^2)
+    tauce == 0.15 ! (N/m2)	
+    erosion rate params == 0.005, 1. ! Er(g/m^2/s), alpha (-)
+  end layer
+end material
+
+!RWH dummy values for remaining materials ! D/S Reaches
+material == 31,32,33,34,35,36,37,38,39
+  ks == 0.0005  !(m)
+  Nlayer == 1
+  layer == 1
+    rhodry == 800.              !(kg/m^3)
+    mass == 0.0                 ! (kg/m^2)	
+    non erodable mass == 400.0  ! (kg/m^2)	
+    tauce == 0.15 ! (N/m^2)
+    erosion rate params == 0.005, 1. ! Er(g/m^2/s), alpha (-)
+  end layer
+end material
+
+material == 101,102   ! U/S and D/S of Penrith Weir
+  ks == 0.0005  !(m)
+  Nlayer == 1
+  layer == 1
+    rhodry == 800.              !(kg/m^3)
+    mass == 0.0                 ! (kg/m^2)	
+    non erodable mass == 400.0  ! (kg/m^2)	
+    tauce == 0.15 ! (N/m^2)
+    erosion rate params == 0.005, 1. ! Er(g/m^2/s), alpha (-)
+  end layer
+end material
+
+write restart dt == 24.0

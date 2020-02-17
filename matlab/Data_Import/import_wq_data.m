@@ -5,8 +5,9 @@ basedir = 'E:\Github 2018\Hawkesbury\data\';
 shp = shaperead([basedir,'WQCalibration.shp']);
 
 dirlist = dir([basedir,'*.csv']);
-[conv,sstr ] = xlsread('Conversions.xlsx','A3:C10000');
+[conv,sstr ] = xlsread('Conversions.xlsx','A3:D10000');
 nvars = sstr(:,2);
+units = sstr(:,4);
 
 hawkesbury = [];
 
@@ -33,7 +34,7 @@ for i = 1:length(dirlist)
     
     [snum,sstr] = xlsread([basedir,dirlist(i).name],'A2:T10000');
     
-    mdate = datestr(sstr(:,1),'dd/mm/yyyy');
+    mdate = datenum(sstr(:,1),'dd/mm/yyyy');
     
     for j = 1:length(nvars)
         
@@ -45,6 +46,7 @@ for i = 1:length(dirlist)
         hawkesbury.(site_ID).(nvars{j}).X = X;
         hawkesbury.(site_ID).(nvars{j}).Y = Y;
         hawkesbury.(site_ID).(nvars{j}).Name = site_ID;
+        hawkesbury.(site_ID).(nvars{j}).Units = units{j};
         end
     end
                  
@@ -53,4 +55,6 @@ for i = 1:length(dirlist)
 end
 
 save hawkesbury.mat hawkesbury -mat;
+
+summerise_data(hawkesbury,'Images/','HN_Monitoring.shp');
         

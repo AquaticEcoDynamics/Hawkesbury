@@ -54,7 +54,17 @@ for i = 1:length(dirlist)
     
 end
 
+
+sites = fieldnames(hawkesbury);
+
+for i = 1:length(sites)
+    if isfield(hawkesbury.(sites{i}),'WQ_DIAG_TOT_TSS')
+        hawkesbury.(sites{i}).WQ_NCS_SS1 = hawkesbury.(sites{i}).WQ_DIAG_TOT_TSS;
+    end
+end
+
+
 save hawkesbury.mat hawkesbury -mat;
 
-summerise_data(hawkesbury,'Images/','HN_Monitoring.shp');
+%summerise_data(hawkesbury,'Images/','HN_Monitoring.shp');
         

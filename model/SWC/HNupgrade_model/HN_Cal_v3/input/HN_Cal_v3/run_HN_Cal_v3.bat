@@ -1,0 +1,5 @@
+set OMP_NUM_THREADS = 16
+"D:\TUFLOWFV\FV2019\x64\TUFLOWFV.exe" "D:\TUFLOWFV\HN\input\HN_Cal_v3\HN_Cal_warmup.fvc"
+"D:\TUFLOWFV\FV2019\x64\TUFLOWFV.exe" "D:\TUFLOWFV\HN\input\HN_Cal_v3\HN_Cal_2013.fvc"
+"D:\TUFLOWFV\FV2019\x64\TUFLOWFV.exe" "D:\TUFLOWFV\HN\input\HN_Cal_v3\HN_Cal_2014.fvc"
+cmd.exe

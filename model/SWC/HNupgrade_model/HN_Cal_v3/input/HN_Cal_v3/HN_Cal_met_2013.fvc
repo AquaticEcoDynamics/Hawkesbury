@@ -1,0 +1,81 @@
+!!!!!!!!!!!!!!!!!!!!!!
+!Meteorological Inputs
+!!!!!!!!!!!!!!!!!!!!!!
+
+!Temperature
+grid definition file == ..\..\bc\Meteorological\Reprojected_Modified_JBFA516397_av_temp_scrn_2013.nc
+	grid definition variables == easting,northing
+	grid definition label == TEMPERATURE_GRID
+end grid
+bc == AIR_TEMP_GRID,TEMPERATURE_GRID, ..\..\bc\Meteorological\Reprojected_Modified_JBFA516397_av_temp_scrn_2013.nc
+  bc header == time,av_temp_scrn
+  bc update dt == 900.
+  bc time units == hours
+  bc reference time == 01/01/2013 00:30
+  bc offset == -273.15 ! Convert from Kelvin to DegC
+end bc
+
+!Wind at 10m above surface
+grid definition file == ..\..\bc\Meteorological\Merged_Reprojected_Modified_JBFA516397_av_wnd10m_2013.nc
+	grid definition variables == easting,northing
+	grid definition label == WINDAT10M_GRID
+end grid
+bc == W10_GRID, WINDAT10M_GRID, ..\..\bc\Meteorological\Merged_Reprojected_Modified_JBFA516397_av_wnd10m_2013.nc
+  bc header == time,av_uwnd10m,av_vwnd10m ! in metres per second
+  bc update dt == 900.
+  bc time units == hours
+  bc reference time == 01/01/2013 00:30
+end bc
+
+!Relative Humidity calclulated from Dew Point and Temperature
+grid definition file == ..\..\bc\Meteorological\Reprojected_Modified_JBFA516397_av_rh_scrn_calculated_2013.nc
+	grid definition variables == easting,northing
+	grid definition label == RELATIVE_HUMIDITY_GRID
+end grid
+bc == REL_HUM_GRID, RELATIVE_HUMIDITY_GRID, ..\..\bc\Meteorological\Reprojected_Modified_JBFA516397_av_rh_scrn_calculated_2013.nc
+  bc header == time,av_rh_scrn
+  bc update dt == 900.
+  bc time units == hours
+  bc reference time == 01/01/2013 00:30
+  bc scale == 100. ! Convert from fraction to percent
+end bc
+
+!Shortwave radiation
+grid definition file == ..\..\bc\Meteorological\Reprojected_Modified_JBFA516397_av_swsfcdown_2013.nc
+	grid definition variables == easting,northing
+	grid definition label == SHORTWAVE_RADIATION_GRID
+end grid
+bc == SW_RAD_GRID, SHORTWAVE_RADIATION_GRID, ..\..\bc\Meteorological\Reprojected_Modified_JBFA516397_av_swsfcdown_2013.nc
+  bc header == time,av_swsfcdown ! In Watt per sq metre
+  bc update dt == 900.
+  bc time units == hours
+  bc reference time == 01/01/2013 00:30
+end bc
+
+!Longwave radiation
+grid definition file == ..\..\bc\Meteorological\Reprojected_Modified_JBFA516397_av_lwsfcdown_2013.nc
+	grid definition variables == easting,northing
+	grid definition label == LONGWAVE_RADIATION_GRID
+end grid
+bc == LW_RAD_GRID, LONGWAVE_RADIATION_GRID, ..\..\bc\Meteorological\Reprojected_Modified_JBFA516397_av_lwsfcdown_2013.nc
+  bc header == time,av_lwsfcdown ! In Watt per sq metre
+  bc update dt == 900.
+  bc time units == hours
+  bc reference time == 01/01/2013 00:30
+end bc
+
+!Mean pressure at sea level
+grid definition file == ..\..\bc\Meteorological\Reprojected_Modified_JBFA516397_av_mslp_2013.nc
+	grid definition variables == easting,northing
+	grid definition label == PRESSURE_GRID
+end grid
+bc == MSLP_Grid,PRESSURE_GRID, ..\..\bc\Meteorological\Reprojected_Modified_JBFA516397_av_mslp_2013.nc
+  bc header == time,av_mslp ! In Pascals and converted to hPa below
+  bc update dt == 900.
+  bc time units == hours
+  bc reference time == 01/01/2013 00:30
+  bc scale == 0.01 !Convert from Pascal to hecto Pascal
+end bc
+
+!Precipitation - coming soon
+!In kg/m2. 86.4 for conversion to m/day

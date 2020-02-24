@@ -47,6 +47,7 @@ for i = 1:length(dirlist)
         hawkesbury.(site_ID).(nvars{j}).Y = Y;
         hawkesbury.(site_ID).(nvars{j}).Name = site_ID;
         hawkesbury.(site_ID).(nvars{j}).Units = units{j};
+        hawkesbury.(site_ID).(nvars{j}).Agency = 'Sydney Water';
         end
     end
                  
@@ -65,6 +66,7 @@ end
 
 
 save hawkesbury.mat hawkesbury -mat;
+save('..\..\..\aed_matlab_modeltools\TUFLOWFV\polygon_timeseries_plotting\matfiles\hawkesbury.mat','hawkesbury','-mat');
 
 %summerise_data(hawkesbury,'Images/','HN_Monitoring.shp');
         

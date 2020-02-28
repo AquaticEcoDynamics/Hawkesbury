@@ -1,0 +1,10 @@
+GR4301
+N14
+N38
+N48 ends in Dec 2017
+N86
+N7823 - just has one row of data
+NB42 and NB43 and NB83 and NB825 - just has data in 2018
+NC2 and NC3 and NCB280 ends in 2010
+NS45 ends in 2012
+All SWC USDS sites have data for 2018 only

@@ -28,10 +28,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>276043.66498625691747293</xmin>
-      <ymin>6190939.69022406730800867</ymin>
-      <xmax>353373.40677212591981515</xmax>
-      <ymax>6300306.03932119999080896</ymax>
+      <xmin>279436.20683522161561996</xmin>
+      <ymin>6203992.35123618319630623</ymin>
+      <xmax>356765.94862109061796218</xmax>
+      <ymax>6313358.70033331587910652</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -196,7 +196,7 @@
       </customproperties>
     </Composition>
   </Composer>
-  <Composer title="BCs" visible="1">
+  <Composer title="BCs" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" worldFileMap="{93732b60-b11c-4d39-9c62-96e048887022}" alignmentSnap="1" printResolution="300" paperWidth="210" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">

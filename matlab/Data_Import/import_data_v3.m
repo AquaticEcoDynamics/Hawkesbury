@@ -93,7 +93,7 @@ for i = 1:length(dirlist)
                 
                     end
                 end
-                hawkesbury_v2.(site_ID).(nvars{ttt}).Depth(1:length(sss),1) = 0;
+                hawkesbury_v2.(site_ID).(nvars{ttt}).Depth(1:length(hawkesbury_v2.(site_ID).(nvars{ttt}).Date),1) = 0;
                 hawkesbury_v2.(site_ID).(nvars{ttt}).X = X;
                 hawkesbury_v2.(site_ID).(nvars{ttt}).Y = Y;
                 hawkesbury_v2.(site_ID).(nvars{ttt}).Name = site_ID;

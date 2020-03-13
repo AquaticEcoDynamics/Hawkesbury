@@ -1,0 +1,321 @@
+! Irrigation Extractions IQQM
+
+
+! Webbs Creek
+bc == QC,  312278.0, 6304485.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Webbs_Creek.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Calna Creek
+bc == QC,  325303.0, 6281509.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Calna_Creek.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Cowan Creek
+bc == QC,  333978.0, 6279043.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Cowan_Creek.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Penrith Weir Pool
+bc == QC,  285416.5, 6264026.9, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Penrith_Weir_Pool.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Yarramundi Lagoon Res
+bc == QC,  288613.0, 6281414.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Yarramundi_Lagoon_Res.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! 428 Irrigator
+bc == QC,  300086.0, 6283594.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_428_Irrigator.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Penrith Weir to Yarramundi
+bc == QC,  284066.6, 6275047.8, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Penrith_Weir_to_Yarramundi.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Yarramundi to Grose River
+bc == QC,  286620.4, 6278586.9, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Yarramundi_to_Grose_River.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Grose to South Creek
+bc == QC,  291155.3, 6283538.3, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Grose_to_South_Creek.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! South creek to Cattai Creek
+bc == QC,  302583.0, 6285066.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_South_creek_to_Cattai_Creek.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Cattai to Colo
+bc == QC,  303176.9, 6294455.7, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Cattai_to_Colo.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Colo to Macdonald
+bc == QC,  309647.0, 6301041.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Colo_to_Macdonald.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Macdonald to Mangrove
+bc == QC,  317163.0, 6301078.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Macdonald_to_Mangrove.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Moony to Cowan Creek
+bc == QC,  332499.0, 6287384.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Moony_to_Cowan_Creek.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Douglas Park Weir Pool
+bc == QC,  287030.2, 6214668.7, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Douglas_Park_Weir_Pool.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Appin
+bc == QC,  290441.0, 6215014.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Appin.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Bergins Weir Pool
+bc == QC,  291491.8, 6224917.5, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Bergins_Weir_Pool.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Menangle Weir Pool
+bc == QC,  292484.7, 6222614.5, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Menangle_Weir_Pool.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Thurns Weir Pool
+bc == QC,  289234.5, 6226739.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Thurns_Weir_Pool.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! ! Navigation Creek
+! bc == QC,  288717.0, 6226807.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Navigation_Creek.csv
+!   bc header == Date,Q_m3s
+!   bc scale == -1.0
+!   sub-type == 1
+! end bc
+
+
+! Sharpes Weir Pool
+bc == QC,  285748.5, 6231240.3, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Sharpes_Weir_Pool.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! ! Camden Weir Pool
+! bc == QC,  288045.0, 6229162.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Camden_Weir_Pool.csv
+!   bc header == Date,Q_m3s
+!   bc scale == -1.0
+!   sub-type == 1
+! end bc
+
+
+! Cobbity Weir Pool
+bc == QC,  285805.0, 6232731.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Cobbity_Weir_Pool.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! ! Matahill
+! bc == QC,  286143.0, 6229823.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Matahill.csv
+!   bc header == Date,Q_m3s
+!   bc scale == -1.0
+!   sub-type == 1
+! end bc
+
+
+! Mt Hunter Weir Pool
+bc == QC,  283972.9, 6232428.5, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Mt_Hunter_Weir_Pool.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! ! Mt Hunter River
+! bc == QC,  283680.0, 6232926.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Mt_Hunter_River.csv
+!   bc header == Date,Q_m3s
+!   bc scale == -1.0
+!   sub-type == 1
+! end bc
+
+
+! Theresa Pool
+bc == QC,  281588.0, 6238103.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Theresa_Pool.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Brownlow Hill Pool
+bc == QC,  283044.0, 6234033.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Brownlow_Hill_Pool.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! Wallacia Pool
+bc == QC,  281398.1, 6250988.4, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Wallacia_Pool.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! ! Scotchey Creek
+! bc == QC,  281229.0, 6246801.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Scotchey_Creek.csv
+!   bc header == Date,Q_m3s
+!   bc scale == -1.0
+!   sub-type == 1
+! end bc
+
+
+! ! South Creek Irr2 STP to Richmond Rd
+! bc == QC,  297618.0, 6271511.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_South_Creek_Irr2_STP_to_Richmond_Rd.csv
+!   bc header == Date,Q_m3s
+!   bc scale == -1.0
+!   sub-type == 1
+! end bc
+
+
+! South Creek Irr3 Richomond Road to Eastern Creek
+bc == QC,  298353.2, 6273527.9, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_South_Creek_Irr3_Richomond_Road_to_Eastern_Creek.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! South Creek DS of Eastern
+bc == QC,  298054.0, 6277960.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_South_Creek_DS_of_Eastern.csv
+  bc header == Date,Q_m3s
+  bc scale == -1.0
+  sub-type == 1
+end bc
+
+
+! ! Narellan Creek
+! bc == QC,  288181.0, 6229927.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Narellan_Creek.csv
+!   bc header == Date,Q_m3s
+!   bc scale == -1.0
+!   sub-type == 1
+! end bc
+
+
+! ! Cobbity Irrigators
+! bc == QC,  284701.0, 6236248.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Cobbity_Irrigators.csv
+!   bc header == Date,Q_m3s
+!   bc scale == -1.0
+!   sub-type == 1
+! end bc
+
+
+! ! Eagle Creek
+! bc == QC,  280833.0, 6238512.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Eagle_Creek.csv
+!   bc header == Date,Q_m3s
+!   bc scale == -1.0
+!   sub-type == 1
+! end bc
+
+
+! ! Bringelly
+! bc == QC,  280948.0, 6239465.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Bringelly.csv
+!   bc header == Date,Q_m3s
+!   bc scale == -1.0
+!   sub-type == 1
+! end bc
+
+
+! ! Bushrangers
+! bc == QC,  280713.1, 6242532.4, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Bushrangers.csv
+!   bc header == Date,Q_m3s
+!   bc scale == -1.0
+!   sub-type == 1
+! end bc
+
+
+! ! Duncan Creek
+! bc == QC,  281562.0, 6248210.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Duncan_Creek.csv
+!   bc header == Date,Q_m3s
+!   bc scale == -1.0
+!   sub-type == 1
+! end bc
+
+
+! ! Mackenzie Creek
+! bc == QC,  299692.0, 6279836.0, ../../../bc/ExtrapolatedCalibrationExtraction/ExtrapolatedDailyAvg_Mackenzie_Creek.csv
+!   bc header == Date,Q_m3s
+!   bc scale == -1.0
+!   sub-type == 1
+! end bc

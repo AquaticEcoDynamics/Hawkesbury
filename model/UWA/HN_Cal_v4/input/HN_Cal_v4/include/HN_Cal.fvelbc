@@ -1,0 +1,1326 @@
+bc == QC,298561.457,6274234.131,../../../bc/Inflows_Calibration_v4/Element Inflow/SC002_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,281772.039,6243198.877,../../../bc/Inflows_Calibration_v4/Element Inflow/SC11.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,280166.092,6241363.764,../../../bc/Inflows_Calibration_v4/Element Inflow/SC13.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,280950.216,6239982.419,../../../bc/Inflows_Calibration_v4/Element Inflow/SC14.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,283148.489,6233647.784,../../../bc/Inflows_Calibration_v4/Element Inflow/SC17.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,284137.496,6232323.755,../../../bc/Inflows_Calibration_v4/Element Inflow/SC20.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,286439.484,6232065.779,../../../bc/Inflows_Calibration_v4/Element Inflow/SC21.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,299065.050,6300326.856,../../../bc/Inflows_Calibration_v4/Element Inflow/SC211.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,298490.404,6299314.970,../../../bc/Inflows_Calibration_v4/Element Inflow/SC212.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,304194.213,6299371.533,../../../bc/Inflows_Calibration_v4/Element Inflow/SC214.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,302113.388,6298697.393,../../../bc/Inflows_Calibration_v4/Element Inflow/SC215.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,301605.443,6299125.586,../../../bc/Inflows_Calibration_v4/Element Inflow/SC217.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,304905.069,6295895.743,../../../bc/Inflows_Calibration_v4/Element Inflow/SC221.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,302799.707,6292147.155,../../../bc/Inflows_Calibration_v4/Element Inflow/SC222.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,285777.052,6229855.204,../../../bc/Inflows_Calibration_v4/Element Inflow/SC23.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,294062.772,6283203.805,../../../bc/Inflows_Calibration_v4/Element Inflow/SC230.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,302661.328,6285094.075,../../../bc/Inflows_Calibration_v4/Element Inflow/SC231.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,297990.635,6298710.240,../../../bc/Inflows_Calibration_v4/Element Inflow/SC234.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,287768.043,6228353.205,../../../bc/Inflows_Calibration_v4/Element Inflow/SC26.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,290364.124,6283106.930,../../../bc/Inflows_Calibration_v4/Element Inflow/SC274.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,298010.081,6281924.791,../../../bc/Inflows_Calibration_v4/Element Inflow/SC276.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,299196.684,6281866.309,../../../bc/Inflows_Calibration_v4/Element Inflow/SC278.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,297054.280,6279873.905,../../../bc/Inflows_Calibration_v4/Element Inflow/SC279.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,291199.080,6226976.025,../../../bc/Inflows_Calibration_v4/Element Inflow/SC28.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,286620.163,6278577.927,../../../bc/Inflows_Calibration_v4/Element Inflow/SC288.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,284727.312,6276808.067,../../../bc/Inflows_Calibration_v4/Element Inflow/SC290.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,282878.509,6267575.210,../../../bc/Inflows_Calibration_v4/Element Inflow/SC306.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,283084.496,6269504.242,../../../bc/Inflows_Calibration_v4/Element Inflow/SC308.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,292924.405,6220591.191,../../../bc/Inflows_Calibration_v4/Element Inflow/SC33.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,285440.405,6263794.568,../../../bc/Inflows_Calibration_v4/Element Inflow/SC331.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,284783.264,6264983.850,../../../bc/Inflows_Calibration_v4/Element Inflow/SC332.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,279300.842,6251042.824,../../../bc/Inflows_Calibration_v4/Element Inflow/SC355.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,280349.945,6250549.969,../../../bc/Inflows_Calibration_v4/Element Inflow/SC356.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,282320.772,6260534.460,../../../bc/Inflows_Calibration_v4/Element Inflow/SC359.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,292378.904,6216561.046,../../../bc/Inflows_Calibration_v4/Element Inflow/SC36.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,313293.901,6304222.884,../../../bc/Inflows_Calibration_v4/Element Inflow/SC378.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,281816.153,6212881.957,../../../bc/Inflows_Calibration_v4/Element Inflow/SC395.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,281392.874,6250143.199,../../../bc/Inflows_Calibration_v4/Element Inflow/SC397.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,285938.626,6215035.125,../../../bc/Inflows_Calibration_v4/Element Inflow/SC41.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,283420.858,6209370.449,../../../bc/Inflows_Calibration_v4/Element Inflow/SC417.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,290227.589,6213548.886,../../../bc/Inflows_Calibration_v4/Element Inflow/SC419.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,290582.614,6212008.680,../../../bc/Inflows_Calibration_v4/Element Inflow/SC420.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,291382.677,6224556.456,../../../bc/Inflows_Calibration_v4/Element Inflow/SC421.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,336782.333,6291697.094,../../../bc/Inflows_Calibration_v4/Element Inflow/SC422.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,330904.933,6291179.007,../../../bc/Inflows_Calibration_v4/Element Inflow/SC423.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,344276.743,6285627.007,../../../bc/Inflows_Calibration_v4/Element Inflow/SC424.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,324079.116,6294102.217,../../../bc/Inflows_Calibration_v4/Element Inflow/SC428.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,329178.990,6295808.672,../../../bc/Inflows_Calibration_v4/Element Inflow/SC429.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,334952.299,6287534.148,../../../bc/Inflows_Calibration_v4/Element Inflow/SC430.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,328812.307,6298048.647,../../../bc/Inflows_Calibration_v4/Element Inflow/SC432.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,335193.980,6284691.639,../../../bc/Inflows_Calibration_v4/Element Inflow/SC438.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,281515.690,6211637.730,../../../bc/Inflows_Calibration_v4/Element Inflow/SC44.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,325249.233,6290604.143,../../../bc/Inflows_Calibration_v4/Element Inflow/SC441.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,338756.463,6283146.122,../../../bc/Inflows_Calibration_v4/Element Inflow/SC489.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,311320.236,6301886.529,../../../bc/Inflows_Calibration_v4/Element Inflow/SC490.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,283783.119,6272718.794,../../../bc/Inflows_Calibration_v4/Element Inflow/SC491.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,324649.924,6289382.093,../../../bc/Inflows_Calibration_v4/Element Inflow/SC493.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,283380.888,6261655.885,../../../bc/Inflows_Calibration_v4/Element Inflow/SC498.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,279681.495,6255941.618,../../../bc/Inflows_Calibration_v4/Element Inflow/SC499.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,276983.587,6251888.060,../../../bc/Inflows_Calibration_v4/Element Inflow/SC500.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,306561.587,6291141.946,../../../bc/Inflows_Calibration_v4/Element Inflow/SC514.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,304911.685,6288043.228,../../../bc/Inflows_Calibration_v4/Element Inflow/SC515.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,316915.592,6300355.462,../../../bc/Inflows_Calibration_v4/Element Inflow/SC517.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,319897.619,6297945.007,../../../bc/Inflows_Calibration_v4/Element Inflow/SC518.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,332373.016,6292111.767,../../../bc/Inflows_Calibration_v4/Element Inflow/SC519.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,335708.645,6296742.614,../../../bc/Inflows_Calibration_v4/Element Inflow/SC521.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,325790.639,6279632.051,../../../bc/Inflows_Calibration_v4/Element Inflow/SC522.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,327825.813,6287864.444,../../../bc/Inflows_Calibration_v4/Element Inflow/SC523.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,327254.892,6283945.952,../../../bc/Inflows_Calibration_v4/Element Inflow/SC524.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,336847.141,6282177.085,../../../bc/Inflows_Calibration_v4/Element Inflow/SC526.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,329742.612,6275996.443,../../../bc/Inflows_Calibration_v4/Element Inflow/SC527.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,334031.278,6281466.347,../../../bc/Inflows_Calibration_v4/Element Inflow/SC528.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,333046.795,6279012.625,../../../bc/Inflows_Calibration_v4/Element Inflow/SC531.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,334323.558,6280474.735,../../../bc/Inflows_Calibration_v4/Element Inflow/SC533.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,343499.707,6282351.027,../../../bc/Inflows_Calibration_v4/Element Inflow/SC534.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,341031.906,6277081.041,../../../bc/Inflows_Calibration_v4/Element Inflow/SC535.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,342103.894,6275447.127,../../../bc/Inflows_Calibration_v4/Element Inflow/SC537.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,342446.432,6281190.463,../../../bc/Inflows_Calibration_v4/Element Inflow/SC538.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,342107.102,6277937.963,../../../bc/Inflows_Calibration_v4/Element Inflow/SC540.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,342988.218,6277675.981,../../../bc/Inflows_Calibration_v4/Element Inflow/SC541.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,283983.936,6235400.688,../../../bc/Inflows_Calibration_v4/Element Inflow/SC542.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,284747.029,6236925.683,../../../bc/Inflows_Calibration_v4/Element Inflow/SC543.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,284573.286,6209257.748,../../../bc/Inflows_Calibration_v4/Element Inflow/SC544.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,283171.704,6212558.149,../../../bc/Inflows_Calibration_v4/Element Inflow/SC547.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,288309.517,6214065.816,../../../bc/Inflows_Calibration_v4/Element Inflow/SC548.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,289595.492,6213910.790,../../../bc/Inflows_Calibration_v4/Element Inflow/SC549.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,291133.406,6215566.340,../../../bc/Inflows_Calibration_v4/Element Inflow/SC550.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,292674.671,6222567.904,../../../bc/Inflows_Calibration_v4/Element Inflow/SC551.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,281275.910,6246266.129,../../../bc/Inflows_Calibration_v4/Element Inflow/SC555.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,282674.814,6237321.317,../../../bc/Inflows_Calibration_v4/Element Inflow/SC558.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,343995.869,6287152.964,../../../bc/Inflows_Calibration_v4/Element Inflow/SC434.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,327028.236,6286355.806,../../../bc/Inflows_Calibration_v4/Element Inflow/SC452.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,326152.253,6287175.914,../../../bc/Inflows_Calibration_v4/Element Inflow/SC448.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,329407.899,6286109.774,../../../bc/Inflows_Calibration_v4/Element Inflow/SC456.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,328658.087,6288454.741,../../../bc/Inflows_Calibration_v4/Element Inflow/SC449.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,284961.711,6232458.370,../../../bc/Inflows_Calibration_v4/Element Inflow/SC24.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,283681.821,6232944.083,../../../bc/Inflows_Calibration_v4/Element Inflow/MtHunter.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,330322.180,6277709.486,../../../bc/Inflows_Calibration_v4/Element Inflow/SC471.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,284682.347,6236230.844,../../../bc/Inflows_Calibration_v4/Element Inflow/Cobbity.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,283355.764,6236914.969,../../../bc/Inflows_Calibration_v4/Element Inflow/SC22.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,286349.890,6229875.662,../../../bc/Inflows_Calibration_v4/Element Inflow/Matahil.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,304845.255,6292560.632,../../../bc/Inflows_Calibration_v4/Element Inflow/SC223.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,307321.132,6290139.110,../../../bc/Inflows_Calibration_v4/Element Inflow/SC224.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,304923.108,6292475.183,../../../bc/Inflows_Calibration_v4/Element Inflow/SC219.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,302417.562,6293622.095,../../../bc/Inflows_Calibration_v4/Element Inflow/SC225.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,302833.279,6291394.838,../../../bc/Inflows_Calibration_v4/Element Inflow/Currency.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,304762.298,6296435.494,../../../bc/Inflows_Calibration_v4/Element Inflow/SC220.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,292214.884,6215294.383,../../../bc/Inflows_Calibration_v4/Element Inflow/SC414.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,292867.792,6217477.974,../../../bc/Inflows_Calibration_v4/Element Inflow/SC39.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,293085.251,6222027.165,../../../bc/Inflows_Calibration_v4/Element Inflow/SC32.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,291962.760,6222514.507,../../../bc/Inflows_Calibration_v4/Element Inflow/SC411.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,291446.169,6222643.235,../../../bc/Inflows_Calibration_v4/Element Inflow/FootOnslow.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,290094.851,6226805.126,../../../bc/Inflows_Calibration_v4/Element Inflow/SC410.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,291547.272,6225822.583,../../../bc/Inflows_Calibration_v4/Element Inflow/SC409.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,291614.952,6226441.635,../../../bc/Inflows_Calibration_v4/Element Inflow/SC407.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,289040.886,6226759.094,../../../bc/Inflows_Calibration_v4/Element Inflow/SC408.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,333138.487,6287308.055,../../../bc/Inflows_Calibration_v4/Element Inflow/SC450.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,337295.351,6288115.095,../../../bc/Inflows_Calibration_v4/Element Inflow/SC436.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,282751.426,6267012.712,../../../bc/Inflows_Calibration_v4/Element Inflow/SC330.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,281714.037,6212833.280,../../../bc/Inflows_Calibration_v4/Element Inflow/Stonequarry.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,282329.378,6212779.312,../../../bc/Inflows_Calibration_v4/Element Inflow/SC413.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,284060.590,6212663.969,../../../bc/Inflows_Calibration_v4/Element Inflow/SC415.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,289119.568,6214229.836,../../../bc/Inflows_Calibration_v4/Element Inflow/SC412.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,304141.964,6284427.100,../../../bc/Inflows_Calibration_v4/Element Inflow/Cattai.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,299343.306,6283221.086,../../../bc/Inflows_Calibration_v4/Element Inflow/SC232.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,301258.703,6283814.005,../../../bc/Inflows_Calibration_v4/Element Inflow/SC273.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,304048.920,6283920.104,../../../bc/Inflows_Calibration_v4/Element Inflow/SC283.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,282579.477,6244441.730,../../../bc/Inflows_Calibration_v4/Element Inflow/SC400.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,282648.822,6244860.479,../../../bc/Inflows_Calibration_v4/Element Inflow/SC399.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,281511.623,6245801.844,../../../bc/Inflows_Calibration_v4/Element Inflow/SC398.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,281243.172,6247169.697,../../../bc/Inflows_Calibration_v4/Element Inflow/SC9.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,281401.802,6250988.435,../../../bc/Inflows_Calibration_v4/Element Inflow/Jerrys.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,279912.115,6240582.423,../../../bc/Inflows_Calibration_v4/Element Inflow/SC16.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,280439.900,6241931.619,../../../bc/Inflows_Calibration_v4/Element Inflow/SC401.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,281033.549,6238310.202,../../../bc/Inflows_Calibration_v4/Element Inflow/SC402.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,280868.646,6238975.613,../../../bc/Inflows_Calibration_v4/Element Inflow/SC390.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,280669.662,6242476.855,../../../bc/Inflows_Calibration_v4/Element Inflow/SC12.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,280908.351,6240046.506,../../../bc/Inflows_Calibration_v4/Element Inflow/SC15.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,279498.758,6255714.535,../../../bc/Inflows_Calibration_v4/Element Inflow/SC351.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,280469.233,6257379.650,../../../bc/Inflows_Calibration_v4/Element Inflow/SC346.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,281771.369,6259829.105,../../../bc/Inflows_Calibration_v4/Element Inflow/Glenbrook.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,282749.342,6261070.767,../../../bc/Inflows_Calibration_v4/Element Inflow/Mulgoa.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,283596.363,6261860.646,../../../bc/Inflows_Calibration_v4/Element Inflow/SC341.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,285588.023,6264297.542,../../../bc/Inflows_Calibration_v4/Element Inflow/SC339.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,276822.278,6252226.154,../../../bc/Inflows_Calibration_v4/Element Inflow/Erskine.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,290013.232,6282486.843,../../../bc/Inflows_Calibration_v4/Element Inflow/Redbank.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,287289.134,6280237.743,../../../bc/Inflows_Calibration_v4/Element Inflow/SC277.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,297766.332,6280857.830,../../../bc/Inflows_Calibration_v4/Element Inflow/SC287.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,280785.997,6211353.920,../../../bc/Inflows_Calibration_v4/Element Inflow/SC40.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,287085.976,6214667.930,../../../bc/Inflows_Calibration_v4/Element Inflow/SC43.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,288035.599,6230132.099,../../../bc/Inflows_Calibration_v4/Element Inflow/SC25.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,283039.495,6234041.433,../../../bc/Inflows_Calibration_v4/Element Inflow/SC406.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,282695.771,6265694.562,../../../bc/Inflows_Calibration_v4/Element Inflow/SC333.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,283189.817,6272072.814,../../../bc/Inflows_Calibration_v4/Element Inflow/SC379.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,282880.889,6271187.698,../../../bc/Inflows_Calibration_v4/Element Inflow/SC301.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,283445.173,6272196.028,../../../bc/Inflows_Calibration_v4/Element Inflow/SC295.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,283842.493,6273456.292,../../../bc/Inflows_Calibration_v4/Element Inflow/SC292.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,283892.493,6274166.111,../../../bc/Inflows_Calibration_v4/Element Inflow/SC297.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,316726.937,6302175.920,../../../bc/Inflows_Calibration_v4/Element Inflow/SC208.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,318728.841,6298369.179,../../../bc/Inflows_Calibration_v4/Element Inflow/SC427.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,320272.525,6295953.918,../../../bc/Inflows_Calibration_v4/Element Inflow/SC425.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,320803.642,6295798.107,../../../bc/Inflows_Calibration_v4/Element Inflow/SC492.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,328089.419,6292549.420,../../../bc/Inflows_Calibration_v4/Element Inflow/SC431.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,329266.859,6295415.290,../../../bc/Inflows_Calibration_v4/Element Inflow/SC440.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,325833.898,6279135.931,../../../bc/Inflows_Calibration_v4/Element Inflow/Still.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,326989.934,6282586.917,../../../bc/Inflows_Calibration_v4/Element Inflow/SC469.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,340075.760,6285088.949,../../../bc/Inflows_Calibration_v4/Element Inflow/Patonga.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,328244.090,6295714.044,../../../bc/Inflows_Calibration_v4/Element Inflow/SC426.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,304829.827,6287666.081,../../../bc/Inflows_Calibration_v4/Element Inflow/LittleCattai.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,306452.462,6300496.252,../../../bc/Inflows_Calibration_v4/Element Inflow/SC207.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,304465.379,6299879.018,../../../bc/Inflows_Calibration_v4/Element Inflow/SC213.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,309184.552,6299438.423,../../../bc/Inflows_Calibration_v4/Element Inflow/SC216.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,314756.877,6302409.035,../../../bc/Inflows_Calibration_v4/Element Inflow/SC199.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,297916.669,6299857.122,../../../bc/Inflows_Calibration_v4/Element Inflow/SC210.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,297240.422,6299118.792,../../../bc/Inflows_Calibration_v4/Element Inflow/Colo_2.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,335288.080,6279103.160,../../../bc/Inflows_Calibration_v4/Element Inflow/SC470.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,338613.887,6281186.186,../../../bc/Inflows_Calibration_v4/Element Inflow/SC460.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,337973.249,6280532.241,../../../bc/Inflows_Calibration_v4/Element Inflow/SC466.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,333645.422,6294304.259,../../../bc/Inflows_Calibration_v4/Element Inflow/SC446.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,343242.002,6281759.339,../../../bc/Inflows_Calibration_v4/Element Inflow/SC457.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,341187.491,6278243.787,../../../bc/Inflows_Calibration_v4/Element Inflow/SC461.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,344047.196,6287954.238,../../../bc/Inflows_Calibration_v4/Element Inflow/SC433.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,332600.844,6281795.159,../../../bc/Inflows_Calibration_v4/Element Inflow/SC464.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,330010.653,6276645.161,../../../bc/Inflows_Calibration_v4/Element Inflow/SC476.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,332164.185,6277241.845,../../../bc/Inflows_Calibration_v4/Element Inflow/SC478.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,329676.314,6275322.775,../../../bc/Inflows_Calibration_v4/Element Inflow/SC479.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,329367.638,6275020.515,../../../bc/Inflows_Calibration_v4/Element Inflow/SC482.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,298797.885,6274269.277,../../../bc/Inflows_Calibration_v4/Element Inflow/Marsden_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,299684.062,6279839.722,../../../bc/Inflows_Calibration_v4/Element Inflow/McKenzie_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,312291.147,6303389.359,../../../bc/Inflows_Calibration_v4/Element Inflow/Webbs.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,325922.442,6278925.047,../../../bc/Inflows_Calibration_v4/Element Inflow/SC473.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,325916.585,6282287.713,../../../bc/Inflows_Calibration_v4/Element Inflow/SC459.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,328810.518,6283810.001,../../../bc/Inflows_Calibration_v4/Element Inflow/SC458.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,288380.571,6226869.147,../../../bc/Inflows_Calibration_v4/Element Inflow/SC35.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,337277.101,6298094.102,../../../bc/Inflows_Calibration_v4/Element Inflow/SC442.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,282273.470,6208873.975,../../../bc/Inflows_Calibration_v4/Element Inflow/SC416.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,281844.548,6209072.446,../../../bc/Inflows_Calibration_v4/Element Inflow/SC418.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,280985.291,6209939.698,../../../bc/Inflows_Calibration_v4/Element Inflow/Bargo.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,280872.769,6210650.219,../../../bc/Inflows_Calibration_v4/Element Inflow/SC545.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,280960.190,6211798.990,../../../bc/Inflows_Calibration_v4/Element Inflow/SC546.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,334371.858,6284121.793,../../../bc/Inflows_Calibration_v4/Element Inflow/SC454.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,335028.593,6283819.078,../../../bc/Inflows_Calibration_v4/Element Inflow/SC455.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,282306.162,6237728.196,../../../bc/Inflows_Calibration_v4/Element Inflow/SC403.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,281715.293,6238069.727,../../../bc/Inflows_Calibration_v4/Element Inflow/SC405.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,297181.512,6279569.442,../../../bc/Inflows_Calibration_v4/Element Inflow/Rickabys.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,313466.334,6302743.687,../../../bc/Inflows_Calibration_v4/Element Inflow/SC209.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,309706.457,6299781.286,../../../bc/Inflows_Calibration_v4/Element Inflow/SC218.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,298031.398,6277411.636,../../../bc/Inflows_Calibration_v4/Element Inflow/SC011_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,281619.095,6248309.049,../../../bc/Inflows_Calibration_v4/Element Inflow/SC10.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,298160.861,6278999.131,../../../bc/Inflows_Calibration_v4/Element Inflow/SC001_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,297487.177,6272867.855,../../../bc/Inflows_Calibration_v4/Element Inflow/SC003_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,299409.093,6274541.754,../../../bc/Inflows_Calibration_v4/Element Inflow/SC010_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,298032.769,6278304.732,../../../bc/Inflows_Calibration_v4/Element Inflow/SC012_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,298050.025,6277861.468,../../../bc/Inflows_Calibration_v4/Element Inflow/SC014_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,298200.799,6275455.432,../../../bc/Inflows_Calibration_v4/Element Inflow/SC020_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,298138.640,6278859.290,../../../bc/Inflows_Calibration_v4/Element Inflow/SC125_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,299462.060,6279271.560,../../../bc/Inflows_Calibration_v4/Element Inflow/SC126_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,299096.923,6274821.110,../../../bc/Inflows_Calibration_v4/Element Inflow/SC127_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,297805.388,6271748.871,../../../bc/Inflows_Calibration_v4/Element Inflow/SC130_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,297523.882,6271479.370,../../../bc/Inflows_Calibration_v4/Element Inflow/SC131_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+
+bc == QC,299573.121,6279969.894,../../../bc/Inflows_Calibration_v4/Element Inflow/SC177_SthCk.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Crypto_cfuper100mL,Ecoli_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+

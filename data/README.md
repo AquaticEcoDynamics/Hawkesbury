@@ -8,7 +8,7 @@ An large volume of monitoring data is collected for HN for a range of sites. The
 
 | Label | Agency | Description        |  Date Range | Files  |
 | ----- | --------| ----------------------- |:-------------:|:--------------------------:|
-| `SWC` | SWC | SWC routine data & US/DS data | 01-1980 to 12/2018 | SWC_Nxxx_Final.csv; SWC_USDS_Nxxx_Final.csv; Nxxx_BI_WQ.csv;  |
+| `SWC` | SWC | SWC routine data & US/DS data | 01-1980 to 12-2018 | SWC_Nxxx_Final.csv; SWC_USDS_Nxxx_Final.csv; Nxxx_BI_WQ.csv;  |
 | `SWC-ww` | SWC | Wet & Dry intensive sampling |05-2018 & 11-2018 | Sydney Water wet weather intensive.xlsx |
 | `DPIE-bouy` | DPIE (EES) | Sackville Buoy (sonde) | 01-2018 to 12/2018 | EES_Sackville_Buoy_Final.csv |
 | `DPIE-mc` | DPIE (EES)  | Transect data | 05-2017 to 01-2018 | Hawkesbury main channel.xls |

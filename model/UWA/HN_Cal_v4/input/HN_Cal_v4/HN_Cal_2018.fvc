@@ -179,6 +179,12 @@ output == netcdf
   output interval == 3600.0
 end output
 
+output == netcdf
+  suffix == WQ
+  output parameters == d,WQ_all,WQ_DIAG_ALL
+  output interval == 3600
+end output
+
 output == flux
   output interval == 3600.0
 end output

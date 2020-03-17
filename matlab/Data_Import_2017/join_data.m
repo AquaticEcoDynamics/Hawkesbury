@@ -1,10 +1,10 @@
 clear all; close all;
 
-load ../Data_Import/hawkesbury.mat;  
+load ../Data_Import/hawkesbury_v2.mat;  
 
 load hawkes_2017.mat;
 
-hawkesbury_all = hawkesbury;
+hawkesbury_all = hawkesbury_v2;
 
 sites = fieldnames(hawkes_2017);
 

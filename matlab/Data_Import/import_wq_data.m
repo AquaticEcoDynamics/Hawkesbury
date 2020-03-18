@@ -47,7 +47,7 @@ for i = 1:length(dirlist)
         hawkesbury.(site_ID).(nvars{j}).Y = Y;
         hawkesbury.(site_ID).(nvars{j}).Name = site_ID;
         hawkesbury.(site_ID).(nvars{j}).Units = units{j};
-        hawkesbury.(site_ID).(nvars{j}).Agency = 'Sydney Water';
+        hawkesbury.(site_ID).(nvars{j}).Agency = 'SWC';
         end
     end
                  

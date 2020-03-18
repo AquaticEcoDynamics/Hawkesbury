@@ -16,6 +16,8 @@ hawkesbury_v2 = [];
 for i = 1:length(dirlist)
     %disp(dirlist(i).name);
     
+    agency = [];
+    
     td = regexprep(dirlist(i).name,'_Final.csv','');
     td = regexprep(td,'_Nutrients','');
     
@@ -26,21 +28,39 @@ for i = 1:length(dirlist)
     if strcmpi(str{1},'SWC') == 1 ...
             & strcmpi(str{2},'USDS') == 1
         site_ID = str{3};
+        
+        agency = 'SWC';
     end
     
     if strcmpi(str{1},'SWC') == 1 ...
             & strcmpi(str{2},'USDS') == 0
         site_ID = str{2};
+        agency = 'SWC';
     end
     
     if strcmpi(str{1},'WNSW') == 1 ...
             site_ID = str{2};
+        agency = 'WNSW';
     end
     
-    if strcmpi(str{1},'SWC') == 0 ...
-            & strcmpi(str{1},'WNSW') == 0
+%     if strcmpi(str{1},'SWC') == 0 ...
+%             & strcmpi(str{1},'WNSW') == 0
+%         
+%         site_ID = regexprep(td,'_',' ');
+%     end
+    
+     if strcmpi(str{1},'EES') == 1
         
         site_ID = regexprep(td,'_',' ');
+        %site_ID = regexprep(site_ID,'EES ','');
+        agency = 'DPIE-bouy';
+     end
+    
+     if strcmpi(str{1},'Hornsby') == 1
+        
+        site_ID = regexprep(td,'_',' ');
+        %site_ID = regexprep(site_ID,'Hornsby ','');
+        agency = 'Hornsby';
     end
     
     disp(site_ID);
@@ -60,10 +80,38 @@ for i = 1:length(dirlist)
         stop
     end
     
+    if isempty(agency)
+        stop;
+    end
+        
+    
     [~,headers] = xlsread([basedir,dirlist(i).name],'B1:T1');
-    [~,sstr] = xlsread([basedir,dirlist(i).name],'A2:A30000');
+    [~,sstr] = xlsread([basedir,dirlist(i).name],'A2:A30000','basic');
+    
+    if strcmpi(agency,'DPIE-bouy') == 1
+        
+        for bb = 1:length(sstr(:,1))
+            
+            ft = strsplit(sstr{bb,1},' ');
+            
+            if length(ft) == 1
+                mdate(bb,1) = datenum(ft{1},'dd/mm/yyyy');
+                
+            else
+                if strcmpi(ft{3},'AM') == 1
+                    mdate(bb,1) = datenum(sstr{bb,1},'dd/mm/yyyy HH:MM:SS AM');
+                else
+                    mdate(bb,1) = datenum(sstr{bb,1},'dd/mm/yyyy HH:MM:SS PM');
+                end
+            end
+        end
+        
+        
+    else
+        
     
     mdate = datenum(sstr(:,1),'dd/mm/yyyy');
+    end
     
     site_ID = regexprep(site_ID,' ','_');
     
@@ -98,7 +146,7 @@ for i = 1:length(dirlist)
                 hawkesbury_v2.(site_ID).(nvars{ttt}).Y = Y;
                 hawkesbury_v2.(site_ID).(nvars{ttt}).Name = site_ID;
                 hawkesbury_v2.(site_ID).(nvars{ttt}).Units = units{j};
-                hawkesbury_v2.(site_ID).(nvars{ttt}).Agency = 'Sydney Water';
+                hawkesbury_v2.(site_ID).(nvars{ttt}).Agency = agency;
         end
     end
     

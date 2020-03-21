@@ -45,7 +45,7 @@ for i = 1:length(sites)
 end
             
 
-fid = fopen('Data Summary v3.csv','wt');
+fid = fopen('Data Summary v6.csv','wt');
 
 sites = fieldnames(hawkesbury_all);
 

@@ -1,8 +1,10 @@
 clear all; close all;
 
-load ../Data_Import_2017/hawkesbury_all.mat;
+load ../Data_Import_2017/hawkes_2017.mat;
 
-fid = fopen('Data Summary.csv','wt');
+fid = fopen('Data Summary v5.csv','wt');
+
+hawkesbury_all = hawkes_2017;
 
 sites = fieldnames(hawkesbury_all);
 

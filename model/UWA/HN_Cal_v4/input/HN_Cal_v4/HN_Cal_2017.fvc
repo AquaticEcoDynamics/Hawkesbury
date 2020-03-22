@@ -183,7 +183,7 @@ end output
 
 output == netcdf
   suffix == WQ
-  output parameters == d,WQ_all,WQ_DIAG_ALL
+  output parameters == h,v,d,Sal,Temp,TSS,d,WQ_all,WQ_DIAG_ALL
   output interval == 3600
 end output
 

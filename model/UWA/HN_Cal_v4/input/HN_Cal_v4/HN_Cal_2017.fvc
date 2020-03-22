@@ -156,9 +156,11 @@ include == .\include\HN_Cal_Extrapolated.fvextbc
 !!!!!!!!!!!!!!!!!!!
 !Initial Conditions
 !!!!!!!!!!!!!!!!!!!
+INITIAL CONDITION 2D == ..\..\bc\IC\init_conditions_2017_05_HN.csv
+
 ! restart
-restart == .\log\HN_Cal_warmup.rst
-use restart file time == 0
+!restart == .\log\HN_Cal_warmup.rst
+!use restart file time == 0
 
 !!!!!!!!!!!!!!!!
 !Output commands

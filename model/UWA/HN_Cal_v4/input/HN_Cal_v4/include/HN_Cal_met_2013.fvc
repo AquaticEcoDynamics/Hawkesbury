@@ -32,7 +32,7 @@ grid definition file == ..\..\..\bc\Meteorological\Reprojected_Modified_JBFA5163
 	grid definition variables == easting,northing
 	grid definition label == RELATIVE_HUMIDITY_GRID
 end grid
-bc == REL_HUM_GRID, RELATIVE_HUMIDITY_GRID, ..\..\\..bc\Meteorological\Reprojected_Modified_JBFA516397_av_rh_scrn_calculated_2013.nc
+bc == REL_HUM_GRID, RELATIVE_HUMIDITY_GRID, ..\..\..\bc\Meteorological\Reprojected_Modified_JBFA516397_av_rh_scrn_calculated_2013.nc
   bc header == time,av_rh_scrn
   bc update dt == 900.
   bc time units == hours
@@ -45,7 +45,7 @@ grid definition file == ..\..\..\bc\Meteorological\Reprojected_Modified_JBFA5163
 	grid definition variables == easting,northing
 	grid definition label == SHORTWAVE_RADIATION_GRID
 end grid
-bc == SW_RAD_GRID, SHORTWAVE_RADIATION_GRID, ..\..\\..bc\Meteorological\Reprojected_Modified_JBFA516397_av_swsfcdown_2013.nc
+bc == SW_RAD_GRID, SHORTWAVE_RADIATION_GRID, ..\..\..\bc\Meteorological\Reprojected_Modified_JBFA516397_av_swsfcdown_2013.nc
   bc header == time,av_swsfcdown ! In Watt per sq metre
   bc update dt == 900.
   bc time units == hours
@@ -57,7 +57,7 @@ grid definition file == ..\..\..\bc\Meteorological\Reprojected_Modified_JBFA5163
 	grid definition variables == easting,northing
 	grid definition label == LONGWAVE_RADIATION_GRID
 end grid
-bc == LW_RAD_GRID, LONGWAVE_RADIATION_GRID, ..\..\\..bc\Meteorological\Reprojected_Modified_JBFA516397_av_lwsfcdown_2013.nc
+bc == LW_RAD_GRID, LONGWAVE_RADIATION_GRID, ..\..\..\bc\Meteorological\Reprojected_Modified_JBFA516397_av_lwsfcdown_2013.nc
   bc header == time,av_lwsfcdown ! In Watt per sq metre
   bc update dt == 900.
   bc time units == hours

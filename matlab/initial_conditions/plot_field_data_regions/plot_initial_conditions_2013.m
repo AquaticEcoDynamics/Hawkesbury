@@ -20,7 +20,7 @@ CHG_BAL_Calc = 1;
 shpfile = 'D:\Github\aed_matlab_modeltools\TUFLOWFV\polygon_timeseries_plotting\GIS\HN/HN_Calibration_v2.shp';
 
 % Date
-sdate = datenum(2013,07,01);
+sdate = datenum(2017,05,01);
 
 
 

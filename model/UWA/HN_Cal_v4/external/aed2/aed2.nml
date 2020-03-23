@@ -612,7 +612,7 @@
               'PHY_bga',
               'PHY_fdiat',
               'PHY_mdiat'
-   TP_varscale = 1.0, 1.0, 1.0, 0.01, 0.01, 0.01, 0.01
+   TP_varscale = 1.0, 1.0, 1.0,1.0, 0.01, 0.01, 0.01, 0.01
    TOC_vars = 'OGM_doc',
               'OGM_poc',
               'PHY_grn',

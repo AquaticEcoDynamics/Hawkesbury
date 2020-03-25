@@ -198,7 +198,7 @@
     Ke_ss      = 0.06
    !-- Configure sediment resuspension
     settling   = 1
-    w_ss       = -0.5
+    w_ss       = -0.7
     d_ss       = 2e-6
     rho_ss     = 1.5e3
    !-- Configure sediment resuspension
@@ -612,7 +612,7 @@
               'PHY_bga',
               'PHY_fdiat',
               'PHY_mdiat'
-   TP_varscale = 1.0, 1.0, 1.0, 0.01, 0.01, 0.01, 0.01
+   TP_varscale = 1.0, 1.0, 1.0,1.0, 0.01, 0.01, 0.01, 0.01
    TOC_vars = 'OGM_doc',
               'OGM_poc',
               'PHY_grn',

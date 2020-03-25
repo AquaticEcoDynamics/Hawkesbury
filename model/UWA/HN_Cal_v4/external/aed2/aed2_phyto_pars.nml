@@ -10,8 +10,8 @@
 ! R_growth      [real]: Phyto max growth rate @20C (/day)
 ! fT_Method     [int]:  Specifies temperature limitation function of growth (-); 0 = no temperature limitation 1= CAEDYM style
 ! theta_growth  [real]: Arrenhius temperature scaling for growth function (-)
-! T_std         [real]: Standard temperature (deg C) 
-! T_opt         [real]: Optimum temperature (deg C) 
+! T_std         [real]: Standard temperature (deg C)
+! T_opt         [real]: Optimum temperature (deg C)
 ! T_max         [real]: Maximum temperature (deg C)
 !-- LIGHT parameters
 ! lightModel    [int]: Type of light response function [0 = no photoinhibition; 1 = photoinhibition]
@@ -33,7 +33,7 @@
 ! simDINUptake  [int]:  Simulate DIN uptake (0 = false, 1 = true)
 ! simDONUptake  [int]:  Simulate DON uptake (0 = false, 1 = true) - currently not functioning
 ! simNFixation  [int]:  Simulate N fixation (0 = false, 1 = true)
-! simINDynamics [int]:  Simulate internal N  (0 = assumed fixed C:N, 2 = dynamic C:N) 
+! simINDynamics [int]:  Simulate internal N  (0 = assumed fixed C:N, 2 = dynamic C:N)
 ! N_o           [real]: Nitrogen concentraion below which uptake is 0 (mmol N/m^3)
 ! K_N           [real]: Half-saturation concentration of nitrogen (mmol N/m^3)
 ! X_ncon        [real]: Constant internal nitrogen concentration (mmol N/ mmol C) used if simINDynamics = 0 or 1
@@ -43,8 +43,8 @@
 ! k_nfix        [real]: growth rate reduction under maximum nitrogen fixation (/day) used if simNFixation >0
 ! R_nfix        [real]: nitrogen fixation rate (mmol N/mmol C/day)
 !-- PHOSPHORUS parameters
-! simDIPUptake  [real]: Simulate DIP uptake (0 = false, 1 = true) 
-! simIPDynamics [real]: Simulate internal phosphorus dynamics (0 = assumed fixed C:P, 2 = dynamic C:P) 
+! simDIPUptake  [real]: Simulate DIP uptake (0 = false, 1 = true)
+! simIPDynamics [real]: Simulate internal phosphorus dynamics (0 = assumed fixed C:P, 2 = dynamic C:P)
 ! P_0           [real]: Phosphorus concentraion below which uptake is 0 (mmol P/m^3)
 ! K_P           [real]: Half-saturation concentration of phosphorus (mmol P/m^3)
 ! X_pcon        [real]: Constant internal phosphorus concentration (mmol P/ mmol C) used if simIPDynamics = 0 or 1
@@ -57,30 +57,30 @@
 ! K_Si          [real]: Half-saturation concentration of silica (mmol Si /m3)
 ! X_sicon       [real]: Constant intenral silica concentration (mmol Si/mmol C)
 !-------------------------------------------------------------------------------
-&phyto_data					
+&phyto_data
  pd%p_name = 'grn', 'bga', 'fdiat', 'mdiat', 'flag'
  pd%p_initial = 10, 10, 10, 10, 10
  pd%p0 = 0.2, 0.2, 0.2, 0.2, 0.2
- pd%w_p = 0, 0, -0.2, -0.2, 0
+ pd%w_p = 0.1, 0, -0.2, -0.2, 0
  pd%Xcc = 50, 40, 50, 50, 60
- pd%R_growth = 1.8, 1.2, 3.3, 3.3, 0.4
+ pd%R_growth = 1.9, 1.2, 3.3, 3.0, 0.4
  pd%fT_Method = 1, 1, 1, 1, 1
  pd%theta_growth = 1.06, 1.06, 1.05, 1.05, 1.1
- pd%T_std = 18, 23, 12, 12, 20
- pd%T_opt = 23, 28, 16, 16, 31
- pd%T_max = 35, 38, 23, 23, 39
+ pd%T_std = 18, 23, 18, 18, 20
+ pd%T_opt = 23, 28, 23, 23, 31
+ pd%T_max = 35, 38, 32, 32, 39
  pd%lightModel = 0, 0, 0, 0, 0
  pd%I_K = 180, 150, 200, 200, 500
  pd%I_S = 100, 120, 100, 100, 100
  pd%KePHY = 0.00408, 0.0051, 0.0048, 0.0048, 0.003
  pd%f_pr = 0.025, 0.025, 0.025, 0.025, 0.025
  pd%R_resp = 0.02, 0.02, 0.03, 0.0375, 0.05
- pd%theta_resp = 1.04, 1.04, 1.09, 1.09, 1.07
+ pd%theta_resp = 1.04, 1.04, 1.07, 1.07, 1.07
  pd%k_fres = 0.7, 0.7, 0.7, 0.7, 0.7
  pd%k_fdom = 0.3, 0.3, 0.3, 0.3, 0.3
  pd%salTol = 0, 1, 1, 2, 0
  pd%S_bep = 1, 5, 1, 5, 1
- pd%S_maxsp = 36, 16, 36, 40, 36
+ pd%S_maxsp = 10, 16, 36, 40, 36
  pd%S_opt = 1, 1, 1, 33, 1
  pd%simDINUptake = 1, 1, 1, 1, 1
  pd%simDONUptake = 0, 0, 0, 0, 0
@@ -106,4 +106,4 @@
  pd%Si_0 = 0, 0, 0, 0, 0
  pd%K_Si = 8, 8, 15.7143, 3.9, 8
  pd%X_sicon = 0.0171, 0.0214, 0.1029, 0.1096, 0.0143
-/					
+/

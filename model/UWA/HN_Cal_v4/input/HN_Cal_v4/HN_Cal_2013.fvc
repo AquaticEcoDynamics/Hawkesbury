@@ -161,9 +161,11 @@ include == .\include\HN_Cal_Extrapolated.fvextbc
 !!!!!!!!!!!!!!!!!!!
 !Initial Conditions
 !!!!!!!!!!!!!!!!!!!
+INITIAL CONDITION 2D == ..\..\bc\IC\init_conditions_2013_07_HN.csv
+
 ! restart
-restart == .\log\HN_Cal_warmup.rst
-use restart file time == 0
+!restart == .\log\HN_Cal_warmup.rst
+!use restart file time == 0
 
 !!!!!!!!!!!!!!!!
 !Output commands
@@ -185,7 +187,7 @@ end output
 
 output == netcdf
   suffix == WQ
-  output parameters == d,WQ_all,WQ_DIAG_ALL
+  output parameters == h,v,d,Sal,Temp,TSS,d,WQ_all,WQ_DIAG_ALL
   output interval == 3600
 end output
 

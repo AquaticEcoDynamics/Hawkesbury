@@ -1,5 +1,7 @@
 clear all; close all;
 
+load ww.mat;
+
 filename = '..\..\data\Updated\Sydney Water wet weather intensive.xlsx';
 
 % 'Wet weather Nov 2018'
@@ -10,39 +12,19 @@ filename = '..\..\data\Updated\Sydney Water wet weather intensive.xlsx';
 lat = snum(:,1);
 lon = snum(:,2);
 site_desc = sstr(:,1);
+sdate = sstr(:,2);
 
-[snum,sstr] = xlsread('WW_Conversion.xlsx','A3:C24');
+[datacell,~] = xlsread(filename,'Dry weather May 2017','J5:S112');
+
+[snum,sstr] = xlsread('dw_conversion_1.xlsx','A2:C11');
 
 AED_Name = sstr(:,2);
 conv = snum(:,1);
 
-[~,~,datacell] = xlsread(filename,'Wet weather Nov 2018','H5:AC113');
-[~,~,datecell] = xlsread(filename,'Wet weather Nov 2018','D5:D113');
-[~,~,sitecell] = xlsread(filename,'Wet weather Nov 2018','B5:B113');
+dw1 = [];
 
-
-%_______________________________________________________________________
-
-% A Check to see if site details are available.
-% for i = 1:length(sitecell)
-%     thesite = sitecell{i};
-%
-%     sss = find(strcmpi(site_desc,thesite) == 1);
-%
-%     if isempty(sss)
-%         if ~isnan(thesite)
-%             disp(thesite);
-%         end
-%     end
-% end
-
-%lets assume that no site is repeated for now....
-
-
-ww = [];
-
-for i = 1:length(datecell)
-    thesite = sitecell{i};
+for i = 1:length(sdate)
+    thesite = site_desc{i};
     if ~isnan(thesite)
         thenewsite = regexprep(thesite,' ','_');
         thenewsite = regexprep(thenewsite,'/','_');
@@ -69,17 +51,17 @@ for i = 1:length(datecell)
             thenewsite = 'Eastern_Creek_at_Richmond_Rd';
         end 
         
-                if strcmpi(thenewsite,'Eastern_Creek_at_Garfield_Road_Bridge_downstream_Breakfast_Creek') == 1
+        if strcmpi(thenewsite,'Eastern_Creek_at_Garfield_Road_Bridge_downstream_Breakfast_Creek') == 1
             thenewsite = 'Eastern_Creek_at_Garfield_Road';
         end  
-        thedate = datecell{i};
+        thedate = sdate{i};
         
         if ~isnan(thedate)
             
             mdate = datenum(thedate,'dd/mm/yyyy');
             
             for j = 1:length(AED_Name)
-                thedata = datacell{i,j};
+                thedata = datacell(i,j);
                 
                 if ~isnumeric(thedata)
                     thedata = str2num(thedata);
@@ -97,12 +79,12 @@ for i = 1:length(datecell)
                             
                             disp([thenewsite,' ',AED_Name{j},' ',num2str(thedata)]);
                             
-                            ww.(thenewsite).(AED_Name{j}).Date = mdate;
-                            ww.(thenewsite).(AED_Name{j}).Data = thedata;
-                            ww.(thenewsite).(AED_Name{j}).Depth = 0;
-                            ww.(thenewsite).(AED_Name{j}).Lon = lon(sss(1));
-                            ww.(thenewsite).(AED_Name{j}).Lat = lat(sss(1));
-                            ww.(thenewsite).(AED_Name{j}).Agency = 'SWC-ww';
+                            dw1.(thenewsite).(AED_Name{j}).Date = mdate;
+                            dw1.(thenewsite).(AED_Name{j}).Data = thedata;
+                            dw1.(thenewsite).(AED_Name{j}).Depth = 0;
+                            dw1.(thenewsite).(AED_Name{j}).Lon = lon(sss(1));
+                            dw1.(thenewsite).(AED_Name{j}).Lat = lat(sss(1));
+                            dw1.(thenewsite).(AED_Name{j}).Agency = 'SWC-ww';
                             
                         end
                     end
@@ -112,15 +94,4 @@ for i = 1:length(datecell)
     end
 end
 
-save ww.mat ww -mat;
-
-
-
-
-
-
-
-
-
-
-
+save dw1.mat dw1 -mat;

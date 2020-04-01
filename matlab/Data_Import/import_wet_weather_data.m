@@ -1,6 +1,6 @@
 clear all; close all;
 
-filename = 'E:\Github 2018\Hawkesbury\data\Updated\Sydney Water wet weather intensive.xlsx';
+filename = '..\..\data\Updated\Sydney Water wet weather intensive.xlsx';
 
 % 'Wet weather Nov 2018'
 % 'Dry weather May 2017'

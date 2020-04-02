@@ -60,41 +60,16 @@ end
     
 sites = fieldnames(hawkesbury_all);
 
-for i = 1:length(sites)
-    if isfield(hawkesbury_all.(sites{i}),'Cond')
- 
-        salinity = conductivity2salinity(hawkesbury_all.(sites{i}).Cond.Data);
-        
-        if isfield(hawkesbury_all.(sites{i}),'SAL')
-            
-            xdata = hawkesbury_all.(sites{i}).Cond.Date;
-            zdata = hawkesbury_all.(sites{i}).Cond.Depth;
-            
-            hawkesbury_all.(sites{i}).SAL.Date =[hawkesbury_all.(sites{i}).SAL.Date;xdata];
-            hawkesbury_all.(sites{i}).SAL.Depth = [hawkesbury_all.(sites{i}).SAL.Depth;zdata];
-            hawkesbury_all.(sites{i}).SAL.Data =[hawkesbury_all.(sites{i}).SAL.Data;salinity];
-            
-        else
-            hawkesbury_all.(sites{i}).SAL = hawkesbury_all.(sites{i}).Cond;
-            hawkesbury_all.(sites{i}).SAL.Data = salinity;
-        end
-    end
-end
+for
+
+salinity = conductivity2salinity(conductivity)
+
 
 
 
 save hawkesbury_all.mat hawkesbury_all -mat
 save('..\..\..\aed_matlab_modeltools\TUFLOWFV\polygon_timeseries_plotting\matfiles\hawkesbury_all.mat','hawkesbury_all','-mat');
 
-sites = fieldnames(hawkesbury_all);
-avars = []; 
-for i = 1:length(sites)
-    t = fieldnames(hawkesbury_all.(sites{i}));
-    
-    avars = [avars;t];
-end
-
-uvars = unique(avars);
 
 % sites = fieldnames(hawkesbury_all);
 % 

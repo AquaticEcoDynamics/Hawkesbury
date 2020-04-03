@@ -86,7 +86,7 @@ for i = 1:length(dirlist)
         
     
     [~,headers] = xlsread([basedir,dirlist(i).name],'B1:T1');
-    [~,sstr] = xlsread([basedir,dirlist(i).name],'A2:A30000','basic');
+    [~,sstr] = xlsread([basedir,dirlist(i).name],'A2:A500000','basic');
     
     if strcmpi(agency,'DPIE-bouy') == 1
         
@@ -118,7 +118,7 @@ for i = 1:length(dirlist)
     
     for j = 1:length(headers)
         
-        [snum,~,scell] = xlsread([basedir,dirlist(i).name],[char(65+j),'2:',char(65+j),'30000']);
+        [snum,~,scell] = xlsread([basedir,dirlist(i).name],[char(65+j),'2:',char(65+j),'500000']);
         
 %         if length(snum) < length(mdate)
 %             stop;

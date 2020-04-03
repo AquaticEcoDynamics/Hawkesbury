@@ -61,24 +61,30 @@ end
 sites = fieldnames(hawkesbury_all);
 
 for i = 1:length(sites)
-    if isfield(hawkesbury_all.(sites{i}),'Cond')
+    if isfield(hawkesbury_all.(sites{i}),'COND')
  
-        salinity = conductivity2salinity(hawkesbury_all.(sites{i}).Cond.Data);
+        salinity = conductivity2salinity(hawkesbury_all.(sites{i}).COND.Data);
         
         if isfield(hawkesbury_all.(sites{i}),'SAL')
             
-            xdata = hawkesbury_all.(sites{i}).Cond.Date;
-            zdata = hawkesbury_all.(sites{i}).Cond.Depth;
+            xdata = hawkesbury_all.(sites{i}).COND.Date;
+            zdata = hawkesbury_all.(sites{i}).COND.Depth;
             
             hawkesbury_all.(sites{i}).SAL.Date =[hawkesbury_all.(sites{i}).SAL.Date;xdata];
             hawkesbury_all.(sites{i}).SAL.Depth = [hawkesbury_all.(sites{i}).SAL.Depth;zdata];
             hawkesbury_all.(sites{i}).SAL.Data =[hawkesbury_all.(sites{i}).SAL.Data;salinity];
             
         else
-            hawkesbury_all.(sites{i}).SAL = hawkesbury_all.(sites{i}).Cond;
+            hawkesbury_all.(sites{i}).SAL = hawkesbury_all.(sites{i}).COND;
             hawkesbury_all.(sites{i}).SAL.Data = salinity;
         end
     end
+    
+    if isfield(hawkesbury_all.(sites{i}),'SAL')
+        hawkesbury_all.(sites{i}).SAL.Data(hawkesbury_all.(sites{i}).SAL.Data < 0) = NaN;
+    end
+    
+    
 end
 
 

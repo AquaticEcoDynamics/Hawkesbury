@@ -52,6 +52,10 @@ for i = 2:length(years)
 
 end
 
+
+
+stop
+
 [sx,sy,sz] = size(ndata);
 
 

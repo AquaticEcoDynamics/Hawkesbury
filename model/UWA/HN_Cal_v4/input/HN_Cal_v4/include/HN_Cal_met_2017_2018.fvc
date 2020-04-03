@@ -78,5 +78,15 @@ bc == MSLP_Grid,PRESSURE_GRID, ..\..\..\bc\Meteorological\mslp.nc
   bc scale == 0.01 !Convert from Pascal to hecto Pascal
 end bc
 
-!Precipitation - coming soon
-!In kg/m2. 86.4 for conversion to m/day
+!Precipitation rate
+grid definition file == ..\..\..\bc\Meteorological\Precip.nc
+	grid definition variables == easting,northing
+	grid definition label == RAIN_GRID
+end grid
+bc == PRECIP_GRID,RAIN_GRID, ..\..\..\bc\Meteorological\Precip.nc
+  bc header == time,accum_prcp
+  bc update dt == 900.
+  bc time units == hours
+  bc reference time == 01/01/2013 01:00
+  bc scale == 0.024 !Convert from kg/m2/hr to m/day
+end bc

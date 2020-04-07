@@ -5,6 +5,7 @@ addpath(genpath('seawater'));
 load ../Data_Import/hawkesbury_v2.mat;  
 
 load ../Data_Import_2017/hawkes_2017.mat;
+load ../Data_Import_2017/sc_2017.mat;
 
 load ../Data_Import/ww_all.mat;
 
@@ -14,6 +15,12 @@ sites = fieldnames(hawkes_2017);
 
 for i = 1:length(sites)
     hawkesbury_all.(sites{i}) = hawkes_2017.(sites{i});
+end
+
+sites = fieldnames(sc_2017);
+
+for i = 1:length(sites)
+    hawkesbury_all.(sites{i}) = sc_2017.(sites{i});
 end
 
 sites = fieldnames(ww_all);
@@ -44,7 +51,7 @@ end
 shp = shaperead('Validation_Sites.shp');
 
 
-%sites = fieldnames(hawkesbury_all);
+sites = fieldnames(hawkesbury_all);
 
 for i = 1:length(shp)
     
@@ -53,8 +60,14 @@ for i = 1:length(shp)
     vars = fieldnames(hawkesbury_all.(site));
     
     for j = 1:length(vars)
-        hawkesbury_all.(site).(vars{j}).X = shp(i).X;
-        hawkesbury_all.(site).(vars{j}).Y = shp(i).Y;
+        
+        if isfield(hawkesbury_all,site)
+            hawkesbury_all.(site).(vars{j}).X = shp(i).X;
+            hawkesbury_all.(site).(vars{j}).Y = shp(i).Y;
+        else
+            stop;
+        end
+            
     end
 end
     
@@ -90,7 +103,7 @@ end
 
 
 save hawkesbury_all.mat hawkesbury_all -mat
-save('..\..\..\aed_matlab_modeltools\TUFLOWFV\polygon_timeseries_plotting\matfiles\hawkesbury_all.mat','hawkesbury_all','-mat');
+save('..\modeltools\matfiles\hawkesbury_all.mat','hawkesbury_all','-mat');
 
 sites = fieldnames(hawkesbury_all);
 avars = []; 

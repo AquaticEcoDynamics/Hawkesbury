@@ -63,7 +63,7 @@ for i = 1:length(usites)
             sc_2017.(usites{i}).(AED_Name{j}).Depth(:,1) = Dep(sss);
             sc_2017.(usites{i}).(AED_Name{j}).X = X(sss(1));
             sc_2017.(usites{i}).(AED_Name{j}).Y = Y(sss(1));
-            sc_2017.(usites{i}).(AED_Name{j}).Agency = 'DPIE-mc';
+            sc_2017.(usites{i}).(AED_Name{j}).Agency = 'DPIE-sc';
             end
         end
     end

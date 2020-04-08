@@ -3,6 +3,7 @@ clear all; close all;
 addpath(genpath('seawater'));
 
 load ../Data_Import/hawkesbury_v2.mat;  
+load ../Data_Import/hawkesbury.mat;
 
 load ../Data_Import_2017/hawkes_2017.mat;
 load ../Data_Import_2017/sc_2017.mat;
@@ -10,6 +11,50 @@ load ../Data_Import_2017/sc_2017.mat;
 load ../Data_Import/ww_all.mat;
 
 hawkesbury_all = hawkesbury_v2;
+
+
+
+
+sites = fieldnames(hawkesbury);
+
+for i = 1:length(sites)
+    
+    if ~isfield(hawkesbury_all,sites{i})
+        hawkesbury_all.(sites{i}) = hawkesbury.(sites{i});
+    else
+        
+        vars = fieldnames(hawkesbury.(sites{i}));
+
+        for j = 1:length(vars)
+            if ~isfield(hawkesbury_all.(sites{i}),vars{j})
+                hawkesbury_all.(sites{i}).(vars{j}) = hawkesbury.(sites{i}).(vars{j});
+            else
+                xdata = [];
+                ydata = [];
+                xdata = hawkesbury.(sites{i}).(vars{j}).Date;
+                ydata = hawkesbury.(sites{i}).(vars{j}).Data;
+                
+                for k = 1:length(xdata)
+                    
+                    sss = find(hawkesbury_all.(sites{i}).(vars{j}).Date == xdata(k) & ...
+                        hawkesbury_all.(sites{i}).(vars{j}).Data == ydata(k));
+                    
+                    if isempty(sss)
+                        hawkesbury_all.(sites{i}).(vars{j}).Date = [hawkesbury_all.(sites{i}).(vars{j}).Date;xdata(k)];
+                        hawkesbury_all.(sites{i}).(vars{j}).Data = [hawkesbury_all.(sites{i}).(vars{j}).Data;ydata(k)];
+                        hawkesbury_all.(sites{i}).(vars{j}).Depth = [hawkesbury_all.(sites{i}).(vars{j}).Depth;0];
+                    end
+                    
+                end
+                
+                [hawkesbury_all.(sites{i}).(vars{j}).Date,ind] = sort(hawkesbury_all.(sites{i}).(vars{j}).Date);
+                hawkesbury_all.(sites{i}).(vars{j}).Data = hawkesbury_all.(sites{i}).(vars{j}).Data(ind);
+                hawkesbury_all.(sites{i}).(vars{j}).Depth = hawkesbury_all.(sites{i}).(vars{j}).Depth(ind);
+            end
+        end
+    end
+end
+
 
 sites = fieldnames(hawkes_2017);
 

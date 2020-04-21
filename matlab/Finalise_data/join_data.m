@@ -3,6 +3,7 @@ clear all; close all;
 addpath(genpath('seawater'));
 
 load ../Data_Import/hawkesbury_v2.mat;  
+load ../Data_Import/hawkesbury_v3.mat; 
 load ../Data_Import/hawkesbury.mat;
 
 load ../Data_Import_2017/hawkes_2017.mat;
@@ -61,6 +62,14 @@ sites = fieldnames(hawkes_2017);
 for i = 1:length(sites)
     hawkesbury_all.(sites{i}) = hawkes_2017.(sites{i});
 end
+
+
+sites = fieldnames(hawkesbury_v3);
+
+for i = 1:length(sites)
+    hawkesbury_all.(sites{i}) = hawkesbury_v3.(sites{i});
+end
+
 
 sites = fieldnames(sc_2017);
 
@@ -160,15 +169,15 @@ end
 
 uvars = unique(avars);
 
-% sites = fieldnames(hawkesbury_all);
-% 
-% for i = 1:length(sites)
-%     vars = fieldnames(hawkesbury_all.(sites{i}));
-%     S(i).Name = regexprep(sites{i},'_',' ');
-%     S(i).Agency = hawkesbury_all.(sites{i}).(vars{1}).Agency;
-%     S(i).X = hawkesbury_all.(sites{i}).(vars{1}).X;
-%     S(i).Y = hawkesbury_all.(sites{i}).(vars{1}).Y;
-%     S(i).Geometry = 'Point';
-% end
-% shapewrite(S,'Validation_Sites.shp');
+sites = fieldnames(hawkesbury_all);
+
+for i = 1:length(sites)
+    vars = fieldnames(hawkesbury_all.(sites{i}));
+    S(i).Name = regexprep(sites{i},'_',' ');
+    S(i).Agency = hawkesbury_all.(sites{i}).(vars{1}).Agency;
+    S(i).X = hawkesbury_all.(sites{i}).(vars{1}).X;
+    S(i).Y = hawkesbury_all.(sites{i}).(vars{1}).Y;
+    S(i).Geometry = 'Point';
+end
+shapewrite(S,'Validation_Sites_v4.shp');
 

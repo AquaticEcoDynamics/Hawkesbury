@@ -2,7 +2,7 @@ clear all; close all;
 
 addpath(genpath('functions'));
 
-sdatearray = [datenum(2013,07,01) datenum(2017,05,01)];
+sdatearray = [datenum(2013,07,01) datenum(2014,07,01) datenum(2017,05,01)];
 %sdatearray = datenum(2018,03,15);
 % Rsdatearray = datenum(2017,11,01);
 for bdb = 1:length(sdatearray)
@@ -13,7 +13,7 @@ for bdb = 1:length(sdatearray)
     
     IC = create_IC_matfile(sdate);
     
-    grid = 'D:\Github\Hawkesbury\model\UWA\HN_Cal_v4\geo\HawkesburyNepean_Detailed_021.2dm';
+    grid = '..\..\..\model\UWA\HN_Cal_v4\geo\HawkesburyNepean_Detailed_021.2dm';
 
     [XX,YY,nodeID,faces,X,Y,ID] = tfv_get_node_from_2dm(grid);
     

@@ -5,7 +5,7 @@ addpath(genpath('Functions'));
 % The files required.
 
 
-fieldfile = 'D:\Github\aed_matlab_modeltools\TUFLOWFV\polygon_timeseries_plotting\matfiles/hawkesbury_all.mat';
+fieldfile = '..\..\modeltools\matfiles\hawkesbury_all.mat';
 
 % defaults = xlsread('Defaults_v3_BB_2009.xlsx','B2:I100');
 %
@@ -17,10 +17,10 @@ fieldfile = 'D:\Github\aed_matlab_modeltools\TUFLOWFV\polygon_timeseries_plottin
 
 CHG_BAL_Calc = 1;
 
-shpfile = 'D:\Github\aed_matlab_modeltools\TUFLOWFV\polygon_timeseries_plotting\GIS\HN/HN_Calibration_v2.shp';
+shpfile = '..\..\modeltools\gis\HN_Calibration_v2.shp';
 
 % Date
-sdate = datenum(2017,05,01);
+sdate = datenum(2014,07,01);
 
 
 

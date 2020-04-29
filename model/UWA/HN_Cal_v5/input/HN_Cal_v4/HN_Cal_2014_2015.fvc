@@ -46,8 +46,9 @@ external water quality model dir == ..\..\external\aed2\
 cfl external == 0.95 ! <Global Maximum Courant Number>
 cfl internal == 0.95 ! <Global Maximum Courant Number>
 time format == ISODATE ! <Hours;ISODate>
-start time ==  01/07/2013 00:00:00 ! <simulation start time>
-end time ==    01/07/2014 00:00:00 ! <simulation stop time>
+start time ==  01/07/2014 00:00:00 ! <simulation start time>
+end time ==    01/07/2015 00:00:00 ! <simulation stop time>
+end time ==    01/07/2015 00:00:00 ! <simulation stop time>
 timestep limits == 0.1, 30.0 ! <min timestep (s), max timestep (s)>
 turbulence update dt == 900. ! for GOTM (s)
 display dt == 900.														

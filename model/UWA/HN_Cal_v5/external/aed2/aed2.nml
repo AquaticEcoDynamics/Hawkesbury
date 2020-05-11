@@ -371,7 +371,7 @@
    simDryDeposition = .false.
    atm_pip_dd = 0.00
    simWetDeposition = .true.
-   atm_frp_conc = 0.01 d
+   atm_frp_conc = 0.01
 /
 
 

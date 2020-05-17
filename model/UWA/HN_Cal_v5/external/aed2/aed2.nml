@@ -362,7 +362,7 @@
    ads_use_external_tss = .false.
    po4sorption_target_variable ='NCS_ss1'
    PO4AdsorptionModel = 1
-   Kpo4p = 0.1
+   Kpo4p = 0.01
    ads_use_pH = .false.
    Kadsratio= 1.0
    Qmax = 1.0
@@ -398,6 +398,7 @@
      Rpoc_hydrol  =   0.01
      Rdoc_minerl  =   0.01
      Rpon_hydrol  =   0.01
+	   Rdom_minerl  =   0.025
      Rdon_minerl  =   0.03
      Rpop_hydrol  =   0.01
      Rdop_minerl  =   0.01

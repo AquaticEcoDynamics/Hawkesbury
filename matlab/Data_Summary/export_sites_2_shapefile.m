@@ -1,6 +1,6 @@
 clear all; close all;
 
-load ../Data_Import_2017/hawkesbury_all.mat;
+load D:\Github\Hawkesbury\matlab\modeltools\matfiles/hawkesbury_all.mat;
 
 
 sites = fieldnames(hawkesbury_all);

@@ -1,0 +1,7 @@
+join_netcdf_lw
+join_netcdf_mslp
+join_netcdf_precip
+join_netcdf_rh
+join_netcdf_sw
+join_netcdf_temp
+join_netcdf_wind

@@ -1,14 +1,21 @@
 clear all; close all;
 
-basedir = 'D:\Github\Hawkesbury\model\UWA\HN_Cal_v4\bc\Meteorological\';
+basedir = 'D:\Github\Hawkesbury\model\UWA\HN_Cal_v6\bc\Meteorological\';
 
-ncfile1 = 'Reprojected_Modified_JBFA516397_av_temp_scrn_2013.nc';
-ncfile2 = 'Reprojected_Modified_JBFA516397_av_temp_scrn_2014.nc';
-ncfile3 = 'Reprojected_Modified_JBFA516397_av_temp_scrn_2015.nc';
-ncfile4 = 'Reprojected_Modified_JBFA516397_av_temp_scrn_2017.nc';
-ncfile5 = 'Reprojected_Modified_JBFA516397_av_temp_scrn_2018.nc';
 
-years = [2013 2014 2015 2017 2018];
+basename = 'Reprojected_Modified_JBFA516397_av_temp_scrn';
+
+ncfile1 = [basename,'_2012.nc'];
+ncfile2 = [basename,'_2013.nc'];
+ncfile3 = [basename,'_2014.nc'];
+ncfile4 = [basename,'_2015.nc'];
+ncfile5 = [basename,'_2017.nc'];
+ncfile6 = [basename,'_2018.nc'];
+
+years = [2012 2013 2014 2015 2017 2018];
+
+basedate = datenum(2012,01,01,01,00,00);
+
 
 outnc = 'Temp.nc';
 
@@ -21,7 +28,6 @@ data.nc1 = tfv_readnetcdf([basedir,ncfile1],'names',{var;'time';'easting';'north
 easting = data.nc1.easting;
 northing = data.nc1.northing;
 
-basedate = datenum(2013,01,01,01,00,00);
 
 ntime = data.nc1.time;
 ndata = data.nc1.(var);

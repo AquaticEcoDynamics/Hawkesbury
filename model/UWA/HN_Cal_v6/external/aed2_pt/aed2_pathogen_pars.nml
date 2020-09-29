@@ -43,8 +43,8 @@
 !       coef_resus_epsilonP : [    real] - Pathogen resuspension rate
 !         coef_resus_tauP_0 : [    real] - Critical shear stress for organism resuspension
 &pathogen_data
-  pd%p_name               =      'crypto',      'ecoli',  'totalcoli'
-  pd%coef_grwth_uMAX      =             0,            3,          2.4
+  pd%p_name               =      'crypto',      'ecoli', 'enterococci'
+  pd%coef_grwth_uMAX      =             0,            0,            0
   pd%coef_grwth_Tmin      =             4,            4,            4
   pd%coef_grwth_Tmax      =            35,           35,           35
   pd%coef_grwth_T1        =         0.008,        0.008,        0.008

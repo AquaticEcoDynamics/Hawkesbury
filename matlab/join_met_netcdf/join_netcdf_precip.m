@@ -70,7 +70,7 @@ u_varid = netcdf.defVar(ncid,var,'double',[y_dimID,x_dimID,time_dimID]);
 
 % Time
 netcdf.putAtt(ncid,time_varid,'long_name','time');
-netcdf.putAtt(ncid,time_varid,'units','hours since 2013-01-01 01:00:00');
+netcdf.putAtt(ncid,time_varid,'units','hours since 2012-01-01 01:00:00');
 % Lat
 netcdf.putAtt(ncid,y_varid,'units','metres');
 netcdf.putAtt(ncid,y_varid,'long_name','northing');

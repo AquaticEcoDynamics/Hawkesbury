@@ -1,16 +1,20 @@
 clear all; close all;
 
-basedir = 'D:\Github\Hawkesbury\model\UWA\HN_Cal_v4\bc\Meteorological\';
+basedir = 'D:\Github\Hawkesbury\model\UWA\HN_Cal_v6\bc\Meteorological\';
 
 basename = 'Reprojected_Modified_JBFA516397_av_lwsfcdown';
 
-ncfile1 = [basename,'_2013.nc'];
-ncfile2 = [basename,'_2014.nc'];
-ncfile3 = [basename,'_2015.nc'];
-ncfile4 = [basename,'_2017.nc'];
-ncfile5 = [basename,'_2018.nc'];
 
-years = [2013 2014 2015 2017 2018];
+ncfile1 = [basename,'_2012.nc'];
+ncfile2 = [basename,'_2013.nc'];
+ncfile3 = [basename,'_2014.nc'];
+ncfile4 = [basename,'_2015.nc'];
+ncfile5 = [basename,'_2017.nc'];
+ncfile6 = [basename,'_2018.nc'];
+
+years = [2012 2013 2014 2015 2017 2018];
+
+basedate = datenum(2012,01,01,01,00,00);
 
 outnc = 'lw.nc';
 
@@ -25,7 +29,7 @@ data.nc1 = tfv_readnetcdf([basedir,ncfile1],'names',{var;'time';'easting';'north
 easting = data.nc1.easting;
 northing = data.nc1.northing;
 
-basedate = datenum(2013,01,01,01,00,00);
+
 
 ntime = data.nc1.time;
 ndata = data.nc1.(var);
@@ -54,7 +58,7 @@ end
 
 
 
-stop
+
 
 [sx,sy,sz] = size(ndata);
 
@@ -74,7 +78,7 @@ u_varid = netcdf.defVar(ncid,var,'double',[y_dimID,x_dimID,time_dimID]);
 
 % Time
 netcdf.putAtt(ncid,time_varid,'long_name','time');
-netcdf.putAtt(ncid,time_varid,'units','hours since 2013-01-01 01:00:00');
+netcdf.putAtt(ncid,time_varid,'units','hours since 2012-01-01 01:00:00');
 % Lat
 netcdf.putAtt(ncid,y_varid,'units','metres');
 netcdf.putAtt(ncid,y_varid,'long_name','northing');

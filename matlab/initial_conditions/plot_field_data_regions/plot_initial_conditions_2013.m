@@ -20,7 +20,7 @@ CHG_BAL_Calc = 1;
 shpfile = '..\..\modeltools\gis\HN_Calibration_v2.shp';
 
 % Date
-sdate = datenum(2014,07,01);
+sdate = datenum(2012,07,01);
 
 
 

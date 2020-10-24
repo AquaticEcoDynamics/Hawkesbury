@@ -1,0 +1,9 @@
+!Barrenjoey
+bc == WL, 6, ..\..\..\bc\Tide\Barrenjoey_CleanedFilled_Final.csv
+  bc header == Date,WL_mAHD,Sal_gperL,Temp_degC,Ecoli_cfuper100mL,FC_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL,FC_cfuper100mL,FC_cfuper100mL,TSS_mgperL,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Ecoli_cfuper100mL,Enterococci_cfuper100mL
+end bc
+
+!Brisbane Water - using Barrenjoey as Brisbane Water causes instability
+bc == WL, 24, ..\..\..\bc\Tide\Barrenjoey_CleanedFilled_Final.csv
+  bc header == Date,WL_mAHD,Sal_gperL,Temp_degC,Ecoli_cfuper100mL,FC_cfuper100mL,FC_cfuper100mL,Enterococci_cfuper100mL,FC_cfuper100mL,FC_cfuper100mL,TSS_mgperL,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Ecoli_cfuper100mL,Enterococci_cfuper100mL
+end bc

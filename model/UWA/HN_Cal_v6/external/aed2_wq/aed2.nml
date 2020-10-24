@@ -499,7 +499,7 @@
   do_uptake_target_variable='OXY_oxy'
   c_uptake_target_variable=''
 !-- General options
-  dbase = '../../external/aed2/aed2_phyto_pars.nml'
+  dbase = '../../external/aed2_wq/aed2_phyto_pars.nml'
   extra_diag = .true.
   zerolimitfudgefactor = 900
   min_rho = 900.

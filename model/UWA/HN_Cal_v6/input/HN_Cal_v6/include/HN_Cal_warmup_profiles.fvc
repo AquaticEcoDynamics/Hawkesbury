@@ -1,0 +1,123 @@
+!_________________________________________________________________  
+
+!BOUNDARY CONDITIONS
+!_________________________________________________________________
+
+! warmup
+! bc == CP, 328168.0,6295792.0, ..\..\..\bc\WarmupProfiles\spencer_drawdown_070_WQ097.csv
+!  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+! end bc
+
+bc == CP, 328750.1, 6294268.5, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N06_070_WQ097_FRP.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 312478.0, 6304996.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N14_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 309314.0, 6299362.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N18_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 302680.0, 6291210.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N26_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 299380.0, 6283096.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N35_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 297373.0, 6279529.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N38_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 291407.0, 6283630.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N39_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 288606.0, 6281407.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N42_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 286632.0, 6278354.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N44_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 283021.0, 6271780.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N48_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 285425.0, 6263906.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N57_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+! Upstream of Wallacia
+bc == CP, 281290.7, 6251257.6, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N67_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 280951.2, 6242799.9, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N682_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 283720.0, 6232817.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N72_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 285589.0, 6230802.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N75_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 287033.0, 6230741.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N78_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 291530.0, 6222508.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N85_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 281633.0, 6212426.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_N92_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 291979.7, 6210354.5, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_HUC1_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+! Downstream of N14
+bc == CP, 335809, 6287128, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_HSC55_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 334985, 6286880, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_HSC38_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 325860.0, 6280670.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_HSC60_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 325545.0, 6282080.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_HSC61_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+
+bc == CP, 331392.0, 6289370.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_HSC103_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+ 
+bc == CP, 332167.0, 6288240.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_HSC104_070_WQ097.csv ! Moved slightly to deeper water
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+ 
+bc == CP, 332750.0, 6287400.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_HSC105_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+ 
+bc == CP, 332950.0, 6286900.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_HSC106_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc
+! 
+bc == CP, 334400.0, 6287650.0, ..\..\..\bc\WarmupProfiles\Warmup_Profiles_HSC107_070_WQ097.csv
+  bc header == Depth,Sal,Temp,TSS,DO,Si,NH3,NOx,FRP,FRP_ADS,DOC,POC,DON,PON,DOP,POP,PHY_GRN,PHY_BGA,PHY_FDIA,PHY_MDIA
+end bc

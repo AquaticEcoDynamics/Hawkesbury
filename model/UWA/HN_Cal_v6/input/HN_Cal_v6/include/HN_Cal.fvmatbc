@@ -1,0 +1,165 @@
+!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!Barrenjoey to Wallacia
+!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+material == 1 ! D/S Spencer
+  bottom roughness == 0.016
+end material
+
+material == 2 ! Spencer to Gunderman
+  bottom roughness == 0.017
+end material
+
+material == 3 ! Gunderman to Webbs Ck
+  bottom roughness == 0.020
+end material
+
+material == 4 ! Webbs Ck to Colo
+  bottom roughness == 0.020
+end material
+
+material == 5 ! Colo to Sackville
+  bottom roughness == 0.021
+end material
+
+material == 6 ! Sackville to South Ck
+  bottom roughness == 0.030
+end material
+
+material == 7 ! Macdonald River
+  bottom roughness == 0.028
+end material
+
+material == 8 ! Colo Ck
+  bottom roughness == 0.028
+end material
+
+material == 9 ! South Ck
+  bottom roughness == 0.030
+end material
+
+material == 10 ! South Ck to Grose R
+  bottom roughness == 0.070
+end material
+
+material == 11 ! Grose R to Penrith Weir
+  bottom roughness == 0.070
+end material
+
+material == 12 ! Penrith Weir to Wallacia
+  bottom roughness == 0.024
+end material
+
+material == 13 ! Mangrove Ck
+  bottom roughness == 0.016
+end material
+
+material == 14 ! Mooney Mooney Ck
+  bottom roughness == 0.016
+end material
+
+material == 15 ! Mullet Ck
+  bottom roughness == 0.016
+end material
+
+material == 16 ! Berowra Ck
+  bottom roughness == 0.016
+end material
+
+material == 17 ! Cowan Ck
+  bottom roughness == 0.016
+end material
+
+material == 18 ! Smiths Ck
+  bottom roughness == 0.016
+end material
+
+material == 19 ! Coal and Candle Ck
+  bottom roughness == 0.016
+end material
+
+material == 20 ! Pittwater
+  bottom roughness == 0.016
+end material
+
+material == 21 ! Big Boy Bay
+  bottom roughness == 0.025
+end material
+
+material == 22 ! Pumpkin Point Ck
+  bottom roughness == 0.025
+end material
+
+material == 23 ! Marlow Ck
+  bottom roughness == 0.025
+end material
+
+material == 24 ! Mangroves
+  bottom roughness == 0.035
+end material
+
+material == 25 ! Eastern Creek
+  bottom roughness == 0.030
+end material
+
+material == 101,102 ! Penrith Weir U/S and D/S
+  bottom roughness == 0.025
+end material
+
+!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!Wallacia to Pheasants Nest / Broughtons Pass
+!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+material == 26 ! Wallacia Weir to Bents Basin
+  bottom roughness == 0.035
+end material
+
+material == 27 ! Bents Basin
+  bottom roughness == 0.035
+end material
+
+material == 28 ! Wallacia Basin
+  bottom roughness == 0.035
+end material
+
+material == 29 ! Bents Basin to Theresa Park Weir
+  bottom roughness == 0.035
+end material
+
+material == 30 ! Theresa Park Weir to Brownlow Hill Weir
+  bottom roughness == 0.035
+end material
+
+material == 31 ! Brownlow Hill Weir to Mt Hunter Weir
+  bottom roughness == 0.035
+end material
+
+material == 32 ! Mt Hunter Weir to Cobbity Weir
+  bottom roughness == 0.035
+end material
+
+material == 33 ! Camden Weir to Menangle Wier
+  bottom roughness == 0.035
+end material
+
+material == 34 ! Menangle Weir to Douglas Park Weir
+  bottom roughness == 0.035
+end material
+
+material == 35 ! Broughtons Pass Creek
+  bottom roughness == 0.035
+end material
+
+material == 36 ! Douglas Park Weir to Maldon Weir
+  bottom roughness == 0.035
+end material
+
+material == 37 ! Maldon Weir to Pheasants Nest Weir
+  bottom roughness == 0.035
+end material
+
+material == 38 ! Cobbity Weir to Sharpes Weir
+  bottom roughness == 0.035
+end material
+
+material == 39 ! Sharpes Weir to Camden Weir
+  bottom roughness == 0.035
+end material

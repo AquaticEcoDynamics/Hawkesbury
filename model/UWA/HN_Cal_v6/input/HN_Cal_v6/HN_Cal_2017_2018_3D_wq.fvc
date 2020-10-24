@@ -38,7 +38,7 @@ horizontal gradient limiter == LCD ! <LCD;MLG> => Limited Central Difference or 
 !Water Quality Module
 !!!!!!!!!!!!!!!!!!!!!
 water quality model == EXTERNAL ! <EXTERNAL is AED2>
-external water quality model dir == ..\..\external\aed\
+external water quality model dir == ..\..\external\aed2\
 
 !!!!!!!!!!!!!!!
 !Time settings
@@ -196,8 +196,8 @@ output == netcdf
 end output
 
 output == netcdf
-  suffix == HYDRO
-  output parameters == h,v,d,Sal,Temp
+  suffix == CORE
+  output parameters == h,v,d,Sal,Temp,WQ_DIAG_PHY_TCHLA,WQ_DIAG_TOT_TN,WQ_DIAG_TOT_TP,WQ_DIAG_TOT_TSS
   output interval == 3600
 end output
 

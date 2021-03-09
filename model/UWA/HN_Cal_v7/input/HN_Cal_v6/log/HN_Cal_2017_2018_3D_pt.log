@@ -1,0 +1,42 @@
+
+***************************** TUFLOWFV *****************************
+
+Build version: 2019.01.010_dev
+Build date: 14/05/2019 15:00
+Build platform: Linux
+Build architecture:  x86-64
+Compiler version: Ifort 19.0.3
+Build precision: single
+GIS Module Version: 2019-02-BF
+
+********************************************************************
+
+Computer name: davy
+User name: hydro
+Execution timestamp: 18/10/2020 14:11:21
+
+Attempting to process input control file:
+Trying to open file: HN_Cal_2017_2018_3D_pt.fvc ...NOT OK
+
+ERROR: Unable to open file: HN_Cal_2017_2018_3D_pt.fvc
+
+ERROR-STACK:fvctrl_construct:fvopen:Unable to open file: HN_Cal_2017_2018_3D_pt.fvc
+
+
+Simulation Summary:
+
+Input File: /AED/Hawkesbury/HN_Cal_v6_A2sc_2017/input/HN_Cal_v6/HN_Cal_2017_2018_3D_pt.fvc
+Log File: /AED/Hawkesbury/HN_Cal_v6_A2sc_2017/input/HN_Cal_v6/log/HN_Cal_2017_2018_3D_pt.log
+
+Computer name: davy
+User name: hydro
+Execution Timestamp: 18/10/2020 14:11:21
+Execution Completed: 18/10/2020 14:11:21
+
+Number of warnings = 0
+
+Fatal Error Encountered!
+
+
+Exiting TUFLOWFV
+

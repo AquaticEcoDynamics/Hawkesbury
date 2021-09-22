@@ -1,13 +1,13 @@
-function [XX,YY,nodeID,faces,X,Y,ID] = tfv_get_node_from_2dm(filename)
+function [XX,YY,nodeID,faces,Cell_X,Cell_Y,Cell_ID,Cell_Z] = tfv_get_node_from_2dm(filename)
 
 
 fid = fopen(filename,'rt');
 
+fline = fgetl(fid);
+fline = fgetl(fid);
+fline = fgetl(fid);
+fline = fgetl(fid);
 
-fline = fgetl(fid);
-fline = fgetl(fid);
-fline = fgetl(fid);
-fline = fgetl(fid);
 
 str = strsplit(fline);
 
@@ -53,6 +53,7 @@ inc = 1;
 nodeID(inc,1) = str2double(str{2});
 XX(inc,1) = str2double(str{3});
 YY(inc,1) = str2double(str{4});
+ZZ(inc,1) = str2double(str{5});
 
 inc = 2;
 fline = fgetl(fid);
@@ -62,6 +63,8 @@ while strcmpi(str{1},'ND') == 1
     nodeID(inc,1) = str2double(str{2});
     XX(inc,1) = str2double(str{3});
     YY(inc,1) = str2double(str{4});
+    ZZ(inc,1) = str2double(str{5});
+
     inc = inc + 1;
     fline = fgetl(fid);
     str = strsplit(fline);
@@ -70,16 +73,18 @@ end
 
 fclose(fid);
 
-X(1:length(faces),1) = NaN;
-Y(1:length(faces),1) = NaN;
-ID(1:length(faces),1) = NaN;
+Cell_X(1:length(faces),1) = NaN;
+Cell_Y(1:length(faces),1) = NaN;
+Cell_ID(1:length(faces),1) = NaN;
+Cell_Z(1:length(faces),1) = NaN;
+
 
 for ii = 1:length(faces)
     gg = polygeom(XX(faces(:,ii)),YY(faces(:,ii)));
-    
-    X(ii) = gg(2);
-    Y(ii) = gg(3);
-    ID(ii) = ii;
+    Cell_X(ii) = gg(2);
+    Cell_Y(ii) = gg(3);
+    Cell_ID(ii) = ii;
+    Cell_Z(ii) = mean(ZZ(faces(:,ii)));
 end
 
 

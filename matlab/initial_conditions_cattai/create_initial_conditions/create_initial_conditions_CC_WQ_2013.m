@@ -11,7 +11,7 @@ level = xlsread('Defaults_2013_CC_v2.xlsx','k9:k9');
 
 outfile = 'init_conditions_CC_WQ.csv';
 
-grid = '..\..\..\model\SWC\Cattai_mesh.2dm';
+grid = 'Cattai_mesh_bb.2dm';
 
 [XX,YY,nodeID,faces,X,Y,ID,Cell_Z] = tfv_get_node_from_2dm(grid);
 
@@ -218,6 +218,9 @@ if CHG_BAL_Calc == 1
         init.WQ_GEO_UBALCHG = calc_chgbal(init);
     end
 end
+
+
+
 
 init.nH = Cell_Z + level;
 

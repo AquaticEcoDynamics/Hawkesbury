@@ -9,9 +9,9 @@ defaults = xlsread('Defaults_2013_CC_v2.xlsx','B3:F28');
 
 level = xlsread('Defaults_2013_CC_v2.xlsx','k9:k9');
 
-outfile = 'init_conditions_CC_WQ.csv';
+outfile = 'X:\Cattai\cattai_tfv_aed_v1_2017\bc\IC\init_conditions_CC_WQ.csv';
 
-grid = 'Cattai_mesh_bb.2dm';
+grid = 'X:\Cattai\cattai_tfv_aed_v1_2017\geo\Cattai_mesh_v2.2dm';
 
 [XX,YY,nodeID,faces,X,Y,ID,Cell_Z] = tfv_get_node_from_2dm(grid);
 

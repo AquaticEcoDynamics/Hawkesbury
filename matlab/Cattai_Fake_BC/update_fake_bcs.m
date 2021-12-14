@@ -8,6 +8,7 @@ lspt = split(sstr(:,1),'T');
 
 dat.mDate = datenum(lspt(:,1),'yyyy-mm-dd');
 dat.H = snum(:,end);
+dat.H = dat.H + 2;
 filename = 'Tide.csv';
 
 %load ../../../../data/store/hydro/dew_saltcreek.mat;

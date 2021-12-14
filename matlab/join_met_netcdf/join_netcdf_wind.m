@@ -1,6 +1,6 @@
 clear all; close all;
 
-basedir = 'D:\Github\Hawkesbury\model\UWA\HN_Cal_v6\bc\Meteorological\';
+basedir = 'C:\Users\00065525\Github\Hawkesbury\model\UWA\HN_Cal_v6\bc\Meteorological\';
 
 basename = 'Merged_Reprojected_Modified_JBFA516397_av_wnd10m';
 
@@ -23,8 +23,7 @@ basedate = datenum(2012,01,01,01,00,00);
 %copyfile([basedir,ncfile1],outnc,'f');
 
 data.nc1 = tfv_readnetcdf([basedir,ncfile1],'names',{var;var2;'time';'easting';'northing'});
-
-
+stop
 
 easting = data.nc1.easting;
 northing = data.nc1.northing;

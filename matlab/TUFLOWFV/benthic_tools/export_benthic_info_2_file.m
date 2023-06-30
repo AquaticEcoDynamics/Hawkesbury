@@ -4,14 +4,14 @@ function export_benthic_info_2_file
 
 
 % The 2dm file with pre-configured material zones
-bathy_file = 'HawkesburyNepean_Detailed_021.2dm';
+bathy_file = 'Hawkesbury_cattai_joined_v1_MAT_NS.2dm';
 
 % Spreadsheet conatining the variables, material zone ID and the values
 % that will be used in the file
 benthic_info = 'Benthic_Info.xlsx';
 
 %AED2 benthic filename that will be created
-outfile = 'AED_Initial.csv';
+outfile = 'AED_Initial_Cattai.csv';
 
 %Directory to save the images to
 outdir_plots = 'Images/';

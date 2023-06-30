@@ -1,0 +1,12 @@
+!!!!!!!!! South Creek and Eastern Creek inflows from South Creek Scenario sims !!!!!!!!!
+
+bc == Q,26,../../../bc/SCtoHN/Scn05_SouthCk_BC_BCtoHNmodel.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Ecoli_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,TSS_mgperL
+end bc
+
+
+bc == Q,25,../../../bc/SCtoHN/Scn02_EasternCk_BC_BCtoHNmodel.csv
+	sub-type == 2
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Ecoli_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,TSS_mgperL
+end bc

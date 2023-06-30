@@ -1,0 +1,8 @@
+bc == QC,313058.391223883,6268253.01666711,../../../bc/WWTP/Baseline/Castle_Hill_Baseline_Updated_v2.csv
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL
+end bc
+
+
+bc == QC,307513.140477733,6273100.10343583,../../../bc/WWTP/Baseline/Rouse_Hill_Baseline_Updated_v2.csv
+	bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL
+end bc

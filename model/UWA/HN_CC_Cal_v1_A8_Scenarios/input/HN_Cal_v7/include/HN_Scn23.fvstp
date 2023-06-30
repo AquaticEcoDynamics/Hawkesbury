@@ -1,0 +1,46 @@
+!WWTP
+
+!AWTP effluent at Boundary Creek
+bc == QC,  285537.1, 6264438.0, ../../../bc/STP/AWTP_2056.csv
+  bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Ecoli_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,TSS_mgperL
+end bc
+
+! Winmallee
+bc == QC, 283132.0, 6272050.0, ../../../bc/STP/Winmalee_HighLoading_2056.csv
+  bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Ecoli_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,TSS_mgperL
+end bc
+
+! Penrith
+bc == QC,  285585.3, 6264388.5, ../../../bc/STP/Penrith_HighLoading_2056.csv
+  bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Ecoli_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,TSS_mgperL
+end bc
+
+! Picton
+bc == QC,  281816.8, 6212886.4, ../../../bc/STP/Picton_HighLoading_2056.csv
+  bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Ecoli_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,TSS_mgperL
+end bc
+
+! Brooklyn
+bc == QC,  333061.0, 6286817.0, ../../../bc/STP/Brooklyn_2056.csv
+  bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Ecoli_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,TSS_mgperL
+end bc
+
+! McGrath Hill
+bc == QC,  298145.2, 6278560.1, ../../../bc/STP/McGrathHill_2056.csv
+  bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Ecoli_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,TSS_mgperL
+end bc
+
+! South Windsor
+bc == QC,  298184.9, 6275487.2, ../../../bc/STP/SouthWindsor_2056.csv
+  bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Ecoli_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,TSS_mgperL
+end bc
+
+! Wilton
+bc == QC,  287184.83511, 6214670.85998, ../../../bc/STP/Wilton_HighLoading_2056.csv
+  bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Ecoli_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,TSS_mgperL
+end bc
+
+! Wallacia
+bc == QC,  279103.0, 6249424.0, ../../../bc/STP/Wallacia_2056.csv
+  bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Ecoli_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,TSS_mgperL
+end bc

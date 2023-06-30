@@ -1,0 +1,219 @@
+! HN Calibration Model
+! Warmup run for Water level initialisation
+! Model for Upper South Creek EIS
+! Project period - November 2019 to October 2020
+! This model is an upgraded version of the Hawkesbury Nepean model built by SKM and BMT WBM for Sydney Water in 2013
+
+! Model configured by Kaushal Kumandur
+! Ph: 0468463453
+! Email: kaushal_iyengar@yahoo.co.in ; kaushal.kumandur@sydneywater.com.au
+
+!!!!!!!!!!!!!!!!!
+!Model Projection
+!!!!!!!!!!!!!!!!!
+GIS FORMAT == SHP
+SHP Projection == .\include\HN_Projection_EPSG28356.prj
+hardware == gpu
+
+!!!!!!!!!!!!!!!!!!!!!!!!!
+!Simulation configuration
+!!!!!!!!!!!!!!!!!!!!!!!!!
+include salinity == 1,1 ! <0;1, 0;1> 0 for false & 1 for true
+include temperature == 1,1 ! <0;1, 0;1> 0 for false & 1 for true
+include sediment == 0,0 ! <0;1, 0;1> 0 for false & 1 for true
+!Ntracer == 16 ! Number of passive tracers
+include heat == 1 ! <0;1, 0;1> 0 for false & 1 for true
+Wind Stress Model == 3
+Atmospheric Stability Model == 0
+momentum mixing model == Smagorinsky ! <None, Constant, Smagorinsky>
+scalar mixing model == Smagorinsky ! <None, Constant, Smagorinsky;Elder;Warmup>
+vertical mixing model == External ! <Constant;Parametric;External>
+external turbulence model dir == ..\..\external\gotm\
+bottom drag model == Manning ! <Manning;Ks>
+spatial order == 1,2 ! <1;2 (horizontal), 1;2 (vertical)>
+horizontal gradient limiter == LCD ! <LCD;MLG> => Limited Central Difference or Maximum Limited Gradient
+!Do not touch unless you know what you are doing!
+!horizontal alphaR == 0.0,1.0,1.0									! <alphaH (depth), alphaV (velocity), alpha (scalars)>
+
+!!!!!!!!!!!!!!!!!!!!!
+!Water Quality Module
+!!!!!!!!!!!!!!!!!!!!!
+water quality model == EXTERNAL ! <EXTERNAL is AED2>
+external water quality model dir == ..\..\external\aed\
+
+!!!!!!!!!!!!!!!
+!Time settings
+!!!!!!!!!!!!!!!
+cfl external == 0.95 ! <Global Maximum Courant Number>
+cfl internal == 0.95 ! <Global Maximum Courant Number>
+time format == ISODATE ! <Hours;ISODate>
+start time ==  01/04/2017 00:00:00 ! <simulation start time>
+end time ==    01/01/2019 00:00:00 ! <simulation stop time>
+timestep limits == 0.1, 30.0 ! <min timestep (s), max timestep (s)>
+turbulence update dt == 900. ! for GOTM (s)
+display dt == 900.
+
+!!!!!!!!!!!!!!!!!!
+!Model parameters
+!!!!!!!!!!!!!!!!!!
+!display depth == 1.0e-6
+stability limits == 150.0,20.0 ! <maximum WL, maximum velocity>
+cell wet/dry depths == 5.0e-3, 5.0e-2 ! <cells dry depth (m), cell wet depth (m)>
+cell 3d depth == 0.5 ! <cells where computation are 2d in case they are shallower than>
+transport mode depth == 0.10 ! <depth below which transport mode introduces approximations>
+g == 9.81
+latitude == -35.5 ! <latitude in degree (-ve for southern Hemishpere)
+global bottom roughness == 0.020 ! <Global roughness>
+global horizontal eddy viscosity == 0.2 ! <eddy viscosity coefficient/s (m2/s;-)>
+global horizontal scalar diffusivity == 0.2 ! <diffusivity; coefficient/s (m2/s;-)>
+diffusivity limiter dt == 30. ! <NOT IN MANUAL>
+kinematic viscosity == 1.0e-6 ! <eddy viscosity value (m2/s)>
+global vertical eddy viscosity limits == 1.0e-04, 99999
+global vertical scalar diffusivity limits == 1.0e-06, 99999
+reference salinity == 0.0
+reference temperature == 20.0
+reference density == 1000.0
+
+!!!!!!!!!
+!Geometry
+!!!!!!!!!
+geometry 2d == ..\..\geo\Hawkesbury_cattai_joined_v1_MAT_NS2.2dm
+echo geometry == 1
+cell elevation file == ..\..\geo\Hawkesbury_cattai_joined_v1_deepen_2.csv    !Point inspection at pilot cell centres
+vertical mesh type == z
+layer faces == ..\..\geo\HawkesburyNepean_Detailed_045_z.csv
+sigma layers == 2
+min bottom layer thickness == 0.25
+
+!!!!!!!!!
+!Material
+!!!!!!!!!
+include == .\include\HN_Cal.fvmatbc
+include == .\include\CC_Cal.fvmatbc
+
+bc default update dt == 900.
+
+!Read GIS Mat == ..\..\geo\HN_CC_MAT.shp
+
+!Read GIS Nodestring == ..\..\geo\HN_CC_NS.shp
+!!!!!!!!!!!!!
+!Dam Releases
+!!!!!!!!!!!!!
+bc == Q, 5, ..\..\bc\DamRelease\WarragambaWeir.csv
+  sub-type == 2
+  bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Ecoli_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,TSS_mgperL
+end bc
+
+bc == Q, 27, ..\..\bc\DamRelease\PheasantsNestWeir.csv
+  sub-type == 2
+  bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Ecoli_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,TSS_mgperL
+end bc
+
+bc == Q, 4, ..\..\bc\DamRelease\BroughtonsPassWeir.csv
+  sub-type == 2
+  bc header == Date,Q_m3s,Sal_gperL,Temp_degC,TSS_mgperL,DO_mmolperm3,SiO2_mmolperm3,Ammonium_mmolperm3,NOx_mmolperm3,FRP_mmolperm3,FRP_ADS_mmolperm3,DOC_mmolperm3,POC_mmolperm3,DON_mmolperm3,PON_mmolperm3,DOP_mmolperm3,POP_mmolperm3,PHY_GRN_mmolperm3,PHY_BGA_mmolperm3,PHY_FDIA_mmolperm3,PHY_MDIA_mmolperm3,Ecoli_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Ecoli_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,Enterococci_cfuper100mL,Crypto_cfuper100mL,Crypto_cfuper100mL,TSS_mgperL
+end bc
+
+!!!!!
+!Tide
+!!!!!
+include == .\include\HN_Cal.fvtbc
+
+!!!!!!!!!!!!!!!!!!!
+!Nodestring Inflows
+!!!!!!!!!!!!!!!!!!!
+include == .\include\HN_Cal_v6.fvnsbc
+
+!!!!!!!!!!!!!!!!
+!Element Inflows
+!!!!!!!!!!!!!!!!
+include == .\include\HN_Cal_v6.fvelbc
+
+!!!!!!!!!!!!!!!!!!!!!
+!Meteorological input
+!!!!!!!!!!!!!!!!!!!!!
+include == .\include\CC_Cal_met.fvc
+!include == .\include\HN_Cal_met_2017_2018.fvc
+
+!!!!!!!!!!!!!!!!!!!!!
+!Hydraulic Structures
+!!!!!!!!!!!!!!!!!!!!!
+include == .\include\HN_Cal_PostUpgrade.fvhsbc
+
+
+!!!!!!!!!!!!!!!!!!!
+!Nodestring Inflows
+!!!!!!!!!!!!!!!!!!!
+include == .\include\CC_2017_ELBC.fvc
+include == .\include\CC_2017_NSBC.fvc
+include == .\include\CC_2017_WWTP.fvc
+
+
+!!!!!
+!WWTP
+!!!!!
+include == .\include\HN_Cal.fvstp
+
+!!!!
+!WFP
+!!!!
+bc == QC,287970.4,6280953.0,../../bc/WFP/Filled_NorthRichmondWFP_Final.csv
+	sub-type == 1
+	bc header == Date,Q_m3s
+	bc scale == -1.0
+end bc
+
+!!!!!!!!!!!
+!Extraction
+!!!!!!!!!!!
+include == .\include\HN_Cal_Extrapolated.fvextbc
+
+!!!!!!!!!!!!!!!!!!!
+!Initial Conditions
+!!!!!!!!!!!!!!!!!!!
+INITIAL CONDITION 2D == ..\..\bc\IC\HN_CC_IC_2017.csv
+
+! restart
+!restart == .\log\HN_Cal_warmup.rst
+!use restart file time == 0
+
+!!!!!!!!!!!!!!!!
+!Output commands
+!!!!!!!!!!!!!!!!
+output dir == ..\..\output
+write check files == ..\..\check
+
+!output == points
+!	suffix == DEPTH
+!	output points file == .\include\HN_Cal_DepthPoints.csv
+!	output parameters == h,d
+!	output interval == 3600.0
+!end output
+
+output == netcdf
+  suffix == DIAG
+  output parameters == h,v,d,WQ_ALL,WQ_DIAG_ALL
+  output interval == 3600
+end output
+
+output == netcdf
+  suffix == WQ
+  output parameters == h,v,d,Sal,Temp,TSS,WQ_ALL,WQ_DIAG_PHY_TCHLA,WQ_DIAG_TOT_TN,WQ_DIAG_TOT_TP,WQ_DIAG_TOT_TOC,WQ_DIAG_TOT_TSS,WQ_DIAG_TOT_TURBIDITY
+  output interval == 7200
+end output
+
+output == netcdf
+  suffix == HYDRO
+  output parameters == h,v,d,Sal,Temp
+  output interval == 3600
+end output
+
+output == flux
+  output interval == 3600.0
+end output
+
+output == mass
+  output interval == 3600.0
+end output
+
+write restart dt == 24

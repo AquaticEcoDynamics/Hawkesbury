@@ -1,0 +1,22 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!South Creek material definition
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+material == 42
+  bottom roughness == 0.03
+end material
+
+material == 43
+  bottom roughness == 0.032
+end material
+
+material == 44
+  bottom roughness == 0.04
+end material
+
+material == 45
+  bottom roughness == 0.045
+end material
+
+material == 46
+  bottom roughness == 0.05
+end material
